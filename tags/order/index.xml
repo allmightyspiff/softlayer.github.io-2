@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Order on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/tags/order/</link>
+    <link>/tags/order/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Place block storage (performance ISCSI) order</title>
-      <link>https://softlayer.github.io/python/place_order_block_storage_performance_iscsi/</link>
+      <link>/python/place_order_block_storage_performance_iscsi/</link>
       <pubDate>Thu, 12 Nov 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/place_order_block_storage_performance_iscsi/</guid>
+      <guid>/python/place_order_block_storage_performance_iscsi/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;quot;&amp;quot;&amp;quot;
 Order a block storage (performance ISCSI).
 
@@ -156,10 +156,10 @@ except SoftLayer.SoftLayerAPIError as e:
     
     <item>
       <title>Place quote order</title>
-      <link>https://softlayer.github.io/python/order_quote/</link>
+      <link>/python/order_quote/</link>
       <pubDate>Wed, 12 Feb 2014 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/order_quote/</guid>
+      <guid>/python/order_quote/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import SoftLayer
 from pprint import pprint as pp
  

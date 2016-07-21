@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Python on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/python/</link>
+    <link>/python/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Create A Domain</title>
-      <link>https://softlayer.github.io/python/createDNS/</link>
+      <link>/python/createDNS/</link>
       <pubDate>Fri, 29 Apr 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/createDNS/</guid>
+      <guid>/python/createDNS/</guid>
       <description>&lt;pre&gt;&lt;code&gt;import SoftLayer
 from pprint import pprint as pp
 
@@ -92,10 +92,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Create a new Bandwidth Pool</title>
-      <link>https://softlayer.github.io/python/createBWpool/</link>
+      <link>/python/createBWpool/</link>
       <pubDate>Fri, 29 Apr 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/createBWpool/</guid>
+      <guid>/python/createBWpool/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
 import SoftLayer
 # For nice debug output:
@@ -138,10 +138,10 @@ except SoftLayer.SoftLayerAPIError as e:
     
     <item>
       <title>Order a Local Load Balancer</title>
-      <link>https://softlayer.github.io/python/createLBpython/</link>
+      <link>/python/createLBpython/</link>
       <pubDate>Fri, 29 Apr 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/createLBpython/</guid>
+      <guid>/python/createLBpython/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;quot;&amp;quot;&amp;quot;
 Order a load balancer
 
@@ -204,10 +204,10 @@ except SoftLayer.SoftLayerAPIError as e:
     
     <item>
       <title>Adding/Removing Servers in a Bandwidth Pool</title>
-      <link>https://softlayer.github.io/python/adjustpool/</link>
+      <link>/python/adjustpool/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/adjustpool/</guid>
+      <guid>/python/adjustpool/</guid>
       <description>&lt;p&gt;The following script allows you to add and remove servers in an existing bandwidth pool. The script requires empty arrays when not specifying a Bare Metal or Virtual Guest Id.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import SoftLayer
@@ -229,10 +229,10 @@ pp(adjustpool)
     
     <item>
       <title>Find Location specific pricing for a package</title>
-      <link>https://softlayer.github.io/python/location_based_pricing/</link>
+      <link>/python/location_based_pricing/</link>
       <pubDate>Tue, 12 Apr 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/location_based_pricing/</guid>
+      <guid>/python/location_based_pricing/</guid>
       <description>&lt;p&gt;With the introduction to Location-based Pricing, we updated our pricing model to represent the costs in each data center more clearly. Instead of adding premiums to a base server price, we have priced servers and services in each data center with their own location-based &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Product_Item_Price&#34;&gt;SoftLayer_Product_Item_Price&lt;/a&gt; objects via the API. In the following example we will query for the Dallas 6 data center, and then filter our item (Local Load Balancer) and prices to include only the location-based pricing for the specific data center we&amp;rsquo;re in —or we can filter for the standard price if a location-based price doesn&amp;rsquo;t exist.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
@@ -313,10 +313,10 @@ print(json.dumps(items, sort_keys=True, indent=2, separators=(&#39;,&#39;, &#39;
     
     <item>
       <title>Find standard location pricing for a package</title>
-      <link>https://softlayer.github.io/python/standard_pricing/</link>
+      <link>/python/standard_pricing/</link>
       <pubDate>Tue, 12 Apr 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/standard_pricing/</guid>
+      <guid>/python/standard_pricing/</guid>
       <description>&lt;p&gt;With the introduction to Location-based Pricing, we updated our pricing model to represent the costs in each data center more clearly. Instead of adding premiums to a base server price, we have priced servers and services in each data center with their own location-based &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Product_Item_Price&#34;&gt;SoftLayer_Product_Item_Price&lt;/a&gt; objects via the API. The following example shows how to get the Standard priceItemId for a package regardless of the location.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
@@ -344,10 +344,10 @@ print(json.dumps(items, sort_keys=True, indent=2, separators=(&#39;,&#39;, &#39;
     
     <item>
       <title>Upgrade Hardware and Virtual Servers</title>
-      <link>https://softlayer.github.io/python/upgrade_examples/</link>
+      <link>/python/upgrade_examples/</link>
       <pubDate>Tue, 22 Mar 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/upgrade_examples/</guid>
+      <guid>/python/upgrade_examples/</guid>
       <description>&lt;pre&gt;&lt;code&gt;import SoftLayer
 from pprint import pprint as pp
 
@@ -477,10 +477,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Backup and Restore firewall rules</title>
-      <link>https://softlayer.github.io/python/manage_firewall_rules/</link>
+      <link>/python/manage_firewall_rules/</link>
       <pubDate>Mon, 07 Mar 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/manage_firewall_rules/</guid>
+      <guid>/python/manage_firewall_rules/</guid>
       <description>&lt;p&gt;restoreRules here will clobber any existing rules on the firewall, so be careful with that.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
@@ -542,10 +542,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Attach and Detach a Block Device to a Virtual_Guest</title>
-      <link>https://softlayer.github.io/python/attach_disk/</link>
+      <link>/python/attach_disk/</link>
       <pubDate>Thu, 03 Mar 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/attach_disk/</guid>
+      <guid>/python/attach_disk/</guid>
       <description>&lt;p&gt;Attaching a currently detached portable block device to a given guest. The disk image will need to be migrated to the host the guest is on, so make sure to check if that host has enough disk space (with checkHostDiskAvailability) before attaching. This is only required for guests with local storage guests. SAN based guests don&amp;rsquo;t need that step.&lt;/p&gt;
 
 &lt;p&gt;Running this on a disk that is already attached will move the disk to the new guest.&lt;/p&gt;
@@ -614,10 +614,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Update Firmware on a Bare Metal Server</title>
-      <link>https://softlayer.github.io/python/update_firmware/</link>
+      <link>/python/update_firmware/</link>
       <pubDate>Thu, 03 Mar 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/update_firmware/</guid>
+      <guid>/python/update_firmware/</guid>
       <description>&lt;p&gt;In the following example we are updating the firmware for the IPMI, BIOS, Hard Drives, and Raid Controller on our Bare Metal Server with ID 12345. We can toggle the specific items we want updated by setting the values to False (Do not update firmware) or True (Do update firmware).&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
@@ -632,10 +632,10 @@ result = mgr.update_firmware(hardware_id=12345,ipmi=True,raid_controller=True,bi
     
     <item>
       <title>Manage Users</title>
-      <link>https://softlayer.github.io/python/manageUsers/</link>
+      <link>/python/manageUsers/</link>
       <pubDate>Tue, 01 Mar 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/manageUsers/</guid>
+      <guid>/python/manageUsers/</guid>
       <description>&lt;p&gt;Creates a user, sets up proper permissions, sets up devices access restrictions, creates API keys and orders the user a server.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;import SoftLayer.API
@@ -849,10 +849,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Get Notifications</title>
-      <link>https://softlayer.github.io/python/notifications/</link>
+      <link>/python/notifications/</link>
       <pubDate>Fri, 26 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/notifications/</guid>
+      <guid>/python/notifications/</guid>
       <description>&lt;p&gt;Retrieves all notifications that were created on January 1, 2016.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;import SoftLayer
@@ -886,10 +886,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Get tickets using an objectFilter</title>
-      <link>https://softlayer.github.io/python/ticket_filter/</link>
+      <link>/python/ticket_filter/</link>
       <pubDate>Fri, 26 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/ticket_filter/</guid>
+      <guid>/python/ticket_filter/</guid>
       <description>&lt;pre&gt;&lt;code&gt;import SoftLayer
 from pprint import pprint as pp
 import logging
@@ -960,10 +960,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Creating a support ticket</title>
-      <link>https://softlayer.github.io/python/create_ticket/</link>
+      <link>/python/create_ticket/</link>
       <pubDate>Tue, 09 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/create_ticket/</guid>
+      <guid>/python/create_ticket/</guid>
       <description>&lt;p&gt;Standard support tickets&amp;rsquo; titles must be selected from a pre-determined list of ticket subjects, defined in the &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Ticket_Subject&#34;&gt;SoftLayer_Ticket_Subject&lt;/a&gt; service. The following example will output all of the Ticket Subjects:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
@@ -994,10 +994,10 @@ created_ticket = client[&#39;Ticket&#39;].createStandardTicket(new_ticket, &amp;
     
     <item>
       <title>Cancel an item or service</title>
-      <link>https://softlayer.github.io/python/cancel_service/</link>
+      <link>/python/cancel_service/</link>
       <pubDate>Mon, 08 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/cancel_service/</guid>
+      <guid>/python/cancel_service/</guid>
       <description>&lt;p&gt;In the following example we are retrieving the Billing Item of a Virtual Guest with the ID of 12345678 and passing that ID to &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Billing_Item/cancelService&#34;&gt;cancelService&lt;/a&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;

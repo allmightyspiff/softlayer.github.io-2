@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Objectmask on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/tags/objectmask/</link>
+    <link>/tags/objectmask/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Find Location specific pricing for a package</title>
-      <link>https://softlayer.github.io/python/location_based_pricing/</link>
+      <link>/python/location_based_pricing/</link>
       <pubDate>Tue, 12 Apr 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/location_based_pricing/</guid>
+      <guid>/python/location_based_pricing/</guid>
       <description>&lt;p&gt;With the introduction to Location-based Pricing, we updated our pricing model to represent the costs in each data center more clearly. Instead of adding premiums to a base server price, we have priced servers and services in each data center with their own location-based &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Product_Item_Price&#34;&gt;SoftLayer_Product_Item_Price&lt;/a&gt; objects via the API. In the following example we will query for the Dallas 6 data center, and then filter our item (Local Load Balancer) and prices to include only the location-based pricing for the specific data center we&amp;rsquo;re in —or we can filter for the standard price if a location-based price doesn&amp;rsquo;t exist.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
@@ -94,10 +94,10 @@ print(json.dumps(items, sort_keys=True, indent=2, separators=(&#39;,&#39;, &#39;
     
     <item>
       <title>Get tickets using an objectFilter</title>
-      <link>https://softlayer.github.io/python/ticket_filter/</link>
+      <link>/python/ticket_filter/</link>
       <pubDate>Fri, 26 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/ticket_filter/</guid>
+      <guid>/python/ticket_filter/</guid>
       <description>&lt;pre&gt;&lt;code&gt;import SoftLayer
 from pprint import pprint as pp
 import logging
@@ -168,10 +168,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Cancel an item or service</title>
-      <link>https://softlayer.github.io/python/cancel_service/</link>
+      <link>/python/cancel_service/</link>
       <pubDate>Mon, 08 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/cancel_service/</guid>
+      <guid>/python/cancel_service/</guid>
       <description>&lt;p&gt;In the following example we are retrieving the Billing Item of a Virtual Guest with the ID of 12345678 and passing that ID to &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Billing_Item/cancelService&#34;&gt;cancelService&lt;/a&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
@@ -189,10 +189,10 @@ cancelItem = client[&#39;SoftLayer_Billing_Item&#39;].cancelService(id = billing
     
     <item>
       <title>Find a billing item from a provisioned product</title>
-      <link>https://softlayer.github.io/python/getbillingitem/</link>
+      <link>/python/getbillingitem/</link>
       <pubDate>Mon, 08 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/getbillingitem/</guid>
+      <guid>/python/getbillingitem/</guid>
       <description>&lt;p&gt;In the following example we are looking for the Billing Item of an Virtual Guest with an ID of 1234567.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
@@ -210,10 +210,10 @@ pp(billingId)
     
     <item>
       <title>Month-to-date cost of a Virtual_Guest</title>
-      <link>https://softlayer.github.io/python/monthtodate/</link>
+      <link>/python/monthtodate/</link>
       <pubDate>Mon, 08 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/monthtodate/</guid>
+      <guid>/python/monthtodate/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
 import SoftLayer
 from pprint import pprint as pp
@@ -239,10 +239,10 @@ pp(toDateCost)
     
     <item>
       <title>Calculating month-to-date cost of a Virtual_Guest</title>
-      <link>https://softlayer.github.io/ruby/monthtodate/</link>
+      <link>/ruby/monthtodate/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/ruby/monthtodate/</guid>
+      <guid>/ruby/monthtodate/</guid>
       <description>
 
 &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;require &#39;softlayer_api&#39; # Requires softlayer_api &amp;gt;= 3.2
@@ -271,10 +271,10 @@ pp item[&#39;billingItem&#39;]
     
     <item>
       <title>Find a billing item from a provisioned product</title>
-      <link>https://softlayer.github.io/ruby/billingfromproduct/</link>
+      <link>/ruby/billingfromproduct/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/ruby/billingfromproduct/</guid>
+      <guid>/ruby/billingfromproduct/</guid>
       <description>&lt;p&gt;In the following example we are looking for the Billing Item of an Endurance Storage volume with an ID of 1234567.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;# add your network storage id, it can be found by doing this call: http://sldn.softlayer.com/reference/services/SoftLayer_Account/getNasNetworkStorage
@@ -288,10 +288,10 @@ pp item[&#39;billingItem&#39;]
     
     <item>
       <title>Month-to-date cost of a Virtual_Guest</title>
-      <link>https://softlayer.github.io/php/monthtodate/</link>
+      <link>/php/monthtodate/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/monthtodate/</guid>
+      <guid>/php/monthtodate/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
 
 require_once &#39;./vendor/autoload.php&#39;;
@@ -316,10 +316,10 @@ print_r($response)
     
     <item>
       <title>Retrieve the month to date cost of an hourly VSI</title>
-      <link>https://softlayer.github.io/perl/monthtodatecost/</link>
+      <link>/perl/monthtodatecost/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/perl/monthtodatecost/</guid>
+      <guid>/perl/monthtodatecost/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;#!/usr/bin/perl
 use lib &amp;quot;/path/to/softlayer-api-perl-client/&amp;quot;;
 use SoftLayer::API::SOAP;
@@ -355,10 +355,10 @@ print $result-&amp;gt;result-&amp;gt;{&#39;hoursUsed&#39;} . &amp;quot; hours @ 
     
     <item>
       <title>Month-to-date cost of a Virtual_Guest</title>
-      <link>https://softlayer.github.io/rest/hourlycost_date/</link>
+      <link>/rest/hourlycost_date/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/hourlycost_date/</guid>
+      <guid>/rest/hourlycost_date/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Method: &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/getBillingItem&#34;&gt;&lt;code&gt;SoftLayer_Virtual_Guest::getBillingItem()&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
@@ -384,10 +384,10 @@ print $result-&amp;gt;result-&amp;gt;{&#39;hoursUsed&#39;} . &amp;quot; hours @ 
     
     <item>
       <title>Determining SoftLayer Device Owners</title>
-      <link>https://softlayer.github.io/ruby/determining_device_owners/</link>
+      <link>/ruby/determining_device_owners/</link>
       <pubDate>Fri, 09 Oct 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/ruby/determining_device_owners/</guid>
+      <guid>/ruby/determining_device_owners/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;require &#39;softlayer_api&#39;
 require &#39;vine&#39;
 require &#39;pp&#39;
@@ -429,10 +429,10 @@ end
     
     <item>
       <title>Get Hardware hostnames</title>
-      <link>https://softlayer.github.io/rest/get_hardware_hostname/</link>
+      <link>/rest/get_hardware_hostname/</link>
       <pubDate>Wed, 30 Sep 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/get_hardware_hostname/</guid>
+      <guid>/rest/get_hardware_hostname/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Method: &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Account/getObject&#34;&gt;&lt;code&gt;SoftLayer_Account::getObject()&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
@@ -469,10 +469,10 @@ end
     
     <item>
       <title>Get hostnames</title>
-      <link>https://softlayer.github.io/rest/get_hostnames/</link>
+      <link>/rest/get_hostnames/</link>
       <pubDate>Wed, 30 Sep 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/get_hostnames/</guid>
+      <guid>/rest/get_hostnames/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Method: &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Account/getObject&#34;&gt;&lt;code&gt;SoftLayer_Account::getObject()&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
@@ -570,10 +570,10 @@ end
     
     <item>
       <title>GetHardware with network components</title>
-      <link>https://softlayer.github.io/rest/get_hardware_components/</link>
+      <link>/rest/get_hardware_components/</link>
       <pubDate>Wed, 30 Sep 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/get_hardware_components/</guid>
+      <guid>/rest/get_hardware_components/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Method: &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Account/getHardware&#34;&gt;&lt;code&gt;SoftLayer_Account::getHardware()&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
@@ -717,10 +717,10 @@ end
     
     <item>
       <title>Ordering with placeOrder</title>
-      <link>https://softlayer.github.io/rest/place_order/</link>
+      <link>/rest/place_order/</link>
       <pubDate>Wed, 30 Sep 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/place_order/</guid>
+      <guid>/rest/place_order/</guid>
       <description>
 
 &lt;p&gt;Operation: &lt;code&gt;POST&lt;/code&gt;&lt;/p&gt;

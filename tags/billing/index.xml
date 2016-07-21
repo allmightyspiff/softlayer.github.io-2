@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Billing on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/tags/billing/</link>
+    <link>/tags/billing/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Find out which user placed an order</title>
-      <link>https://softlayer.github.io/rest/which_user_placed_order/</link>
+      <link>/rest/which_user_placed_order/</link>
       <pubDate>Thu, 26 May 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/which_user_placed_order/</guid>
+      <guid>/rest/which_user_placed_order/</guid>
       <description>
 
 &lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
@@ -88,10 +88,10 @@
     
     <item>
       <title>Cancel an item or service</title>
-      <link>https://softlayer.github.io/python/cancel_service/</link>
+      <link>/python/cancel_service/</link>
       <pubDate>Mon, 08 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/cancel_service/</guid>
+      <guid>/python/cancel_service/</guid>
       <description>&lt;p&gt;In the following example we are retrieving the Billing Item of a Virtual Guest with the ID of 12345678 and passing that ID to &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Billing_Item/cancelService&#34;&gt;cancelService&lt;/a&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
@@ -109,10 +109,10 @@ cancelItem = client[&#39;SoftLayer_Billing_Item&#39;].cancelService(id = billing
     
     <item>
       <title>Determining your next bill</title>
-      <link>https://softlayer.github.io/python/nextinvoice/</link>
+      <link>/python/nextinvoice/</link>
       <pubDate>Mon, 08 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/nextinvoice/</guid>
+      <guid>/python/nextinvoice/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
 import SoftLayer
 from pprint import pprint as pp
@@ -127,10 +127,10 @@ pp(nextInvoiceAmount)
     
     <item>
       <title>Find a billing item from a provisioned product</title>
-      <link>https://softlayer.github.io/python/getbillingitem/</link>
+      <link>/python/getbillingitem/</link>
       <pubDate>Mon, 08 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/getbillingitem/</guid>
+      <guid>/python/getbillingitem/</guid>
       <description>&lt;p&gt;In the following example we are looking for the Billing Item of an Virtual Guest with an ID of 1234567.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
@@ -148,10 +148,10 @@ pp(billingId)
     
     <item>
       <title>Month-to-date cost of a Virtual_Guest</title>
-      <link>https://softlayer.github.io/python/monthtodate/</link>
+      <link>/python/monthtodate/</link>
       <pubDate>Mon, 08 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/monthtodate/</guid>
+      <guid>/python/monthtodate/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
 import SoftLayer
 from pprint import pprint as pp
@@ -177,10 +177,10 @@ pp(toDateCost)
     
     <item>
       <title>Calculating month-to-date cost of a Virtual_Guest</title>
-      <link>https://softlayer.github.io/ruby/monthtodate/</link>
+      <link>/ruby/monthtodate/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/ruby/monthtodate/</guid>
+      <guid>/ruby/monthtodate/</guid>
       <description>
 
 &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;require &#39;softlayer_api&#39; # Requires softlayer_api &amp;gt;= 3.2
@@ -209,10 +209,10 @@ pp item[&#39;billingItem&#39;]
     
     <item>
       <title>Cancel an item or service</title>
-      <link>https://softlayer.github.io/php/cancelservice/</link>
+      <link>/php/cancelservice/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/cancelservice/</guid>
+      <guid>/php/cancelservice/</guid>
       <description>&lt;p&gt;In order to cancel an item or service you must know the billing item ID. In the following example we are retrieving the billing item ID for our Virtual Guest with ID &amp;lsquo;15690533&amp;rsquo;:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;?php
@@ -261,10 +261,10 @@ try {
     
     <item>
       <title>Cancel an item or service</title>
-      <link>https://softlayer.github.io/ruby/cancelservice/</link>
+      <link>/ruby/cancelservice/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/ruby/cancelservice/</guid>
+      <guid>/ruby/cancelservice/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;require &#39;softlayer_api&#39; # Requires softlayer_api &amp;gt;= 3.2
 require &#39;pp&#39; # used to display results
 
@@ -292,10 +292,10 @@ if item and item[&#39;billingItem&#39;] and client[:Billing_Item].object_with_id
     
     <item>
       <title>Determining your next bill</title>
-      <link>https://softlayer.github.io/php/getnextinvoice/</link>
+      <link>/php/getnextinvoice/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/getnextinvoice/</guid>
+      <guid>/php/getnextinvoice/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
 
 require_once &#39;./vendor/autoload.php&#39;;
@@ -317,10 +317,10 @@ try {
     
     <item>
       <title>Month-to-date cost of a Virtual_Guest</title>
-      <link>https://softlayer.github.io/php/monthtodate/</link>
+      <link>/php/monthtodate/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/monthtodate/</guid>
+      <guid>/php/monthtodate/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
 
 require_once &#39;./vendor/autoload.php&#39;;
@@ -345,10 +345,10 @@ print_r($response)
     
     <item>
       <title>Associate a Billing ID with the service or item it corresponds to in the SoftLayer catalog</title>
-      <link>https://softlayer.github.io/perl/getassociatedid/</link>
+      <link>/perl/getassociatedid/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/perl/getassociatedid/</guid>
+      <guid>/perl/getassociatedid/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;# https://api.softlayer.com/rest/v3/SoftLayer_Billing_Item/1234321/getAssociatedBillingItem
 my $objectMask = {
    &#39;id&#39; =&amp;gt;&#39;&#39;
@@ -363,10 +363,10 @@ print Dumper($result-&amp;gt;result);
     
     <item>
       <title>Cancel item</title>
-      <link>https://softlayer.github.io/perl/cancelitem/</link>
+      <link>/perl/cancelitem/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/perl/cancelitem/</guid>
+      <guid>/perl/cancelitem/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;#!/usr/bin/perl
 use lib &amp;quot;/path/to/softlayer-api-perl-client/&amp;quot;;
 use SoftLayer::API::SOAP;
@@ -387,10 +387,10 @@ print Dumper($result-&amp;gt;result);
     
     <item>
       <title>Retrieve the amount of your next invoice</title>
-      <link>https://softlayer.github.io/perl/nextbilling/</link>
+      <link>/perl/nextbilling/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/perl/nextbilling/</guid>
+      <guid>/perl/nextbilling/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;use lib &amp;quot;./softlayer-api-perl-client/&amp;quot;;
 use SoftLayer::API::SOAP;
 use Data::Dumper;
@@ -409,10 +409,10 @@ print &amp;quot;Next Invoice Total: &amp;quot; . $result-&amp;gt;result . &amp;q
     
     <item>
       <title>Retrieve the month to date cost of an hourly VSI</title>
-      <link>https://softlayer.github.io/perl/monthtodatecost/</link>
+      <link>/perl/monthtodatecost/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/perl/monthtodatecost/</guid>
+      <guid>/perl/monthtodatecost/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;#!/usr/bin/perl
 use lib &amp;quot;/path/to/softlayer-api-perl-client/&amp;quot;;
 use SoftLayer::API::SOAP;
@@ -448,10 +448,10 @@ print $result-&amp;gt;result-&amp;gt;{&#39;hoursUsed&#39;} . &amp;quot; hours @ 
     
     <item>
       <title>Cancel an item or service</title>
-      <link>https://softlayer.github.io/rest/cancel_service/</link>
+      <link>/rest/cancel_service/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/cancel_service/</guid>
+      <guid>/rest/cancel_service/</guid>
       <description>
 
 &lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Softlayer_virtual_guest on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/classes/softlayer_virtual_guest/</link>
+    <link>/classes/softlayer_virtual_guest/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Upgrade Hardware and Virtual Servers</title>
-      <link>https://softlayer.github.io/python/upgrade_examples/</link>
+      <link>/python/upgrade_examples/</link>
       <pubDate>Tue, 22 Mar 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/upgrade_examples/</guid>
+      <guid>/python/upgrade_examples/</guid>
       <description>&lt;pre&gt;&lt;code&gt;import SoftLayer
 from pprint import pprint as pp
 
@@ -143,10 +143,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Attach and Detach a Block Device to a Virtual_Guest</title>
-      <link>https://softlayer.github.io/python/attach_disk/</link>
+      <link>/python/attach_disk/</link>
       <pubDate>Thu, 03 Mar 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/attach_disk/</guid>
+      <guid>/python/attach_disk/</guid>
       <description>&lt;p&gt;Attaching a currently detached portable block device to a given guest. The disk image will need to be migrated to the host the guest is on, so make sure to check if that host has enough disk space (with checkHostDiskAvailability) before attaching. This is only required for guests with local storage guests. SAN based guests don&amp;rsquo;t need that step.&lt;/p&gt;
 
 &lt;p&gt;Running this on a disk that is already attached will move the disk to the new guest.&lt;/p&gt;
@@ -215,10 +215,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Manage Users</title>
-      <link>https://softlayer.github.io/python/manageUsers/</link>
+      <link>/python/manageUsers/</link>
       <pubDate>Tue, 01 Mar 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/manageUsers/</guid>
+      <guid>/python/manageUsers/</guid>
       <description>&lt;p&gt;Creates a user, sets up proper permissions, sets up devices access restrictions, creates API keys and orders the user a server.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;import SoftLayer.API
@@ -432,10 +432,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Cancel an item or service</title>
-      <link>https://softlayer.github.io/python/cancel_service/</link>
+      <link>/python/cancel_service/</link>
       <pubDate>Mon, 08 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/cancel_service/</guid>
+      <guid>/python/cancel_service/</guid>
       <description>&lt;p&gt;In the following example we are retrieving the Billing Item of a Virtual Guest with the ID of 12345678 and passing that ID to &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Billing_Item/cancelService&#34;&gt;cancelService&lt;/a&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
@@ -453,10 +453,10 @@ cancelItem = client[&#39;SoftLayer_Billing_Item&#39;].cancelService(id = billing
     
     <item>
       <title>Find a billing item from a provisioned product</title>
-      <link>https://softlayer.github.io/python/getbillingitem/</link>
+      <link>/python/getbillingitem/</link>
       <pubDate>Mon, 08 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/getbillingitem/</guid>
+      <guid>/python/getbillingitem/</guid>
       <description>&lt;p&gt;In the following example we are looking for the Billing Item of an Virtual Guest with an ID of 1234567.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
@@ -474,10 +474,10 @@ pp(billingId)
     
     <item>
       <title>Month-to-date cost of a Virtual_Guest</title>
-      <link>https://softlayer.github.io/python/monthtodate/</link>
+      <link>/python/monthtodate/</link>
       <pubDate>Mon, 08 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/monthtodate/</guid>
+      <guid>/python/monthtodate/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
 import SoftLayer
 from pprint import pprint as pp
@@ -503,10 +503,10 @@ pp(toDateCost)
     
     <item>
       <title>Month-to-date cost of a Virtual_Guest</title>
-      <link>https://softlayer.github.io/php/monthtodate/</link>
+      <link>/php/monthtodate/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/monthtodate/</guid>
+      <guid>/php/monthtodate/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
 
 require_once &#39;./vendor/autoload.php&#39;;
@@ -531,10 +531,10 @@ print_r($response)
     
     <item>
       <title>Retrieve the month to date cost of an hourly VSI</title>
-      <link>https://softlayer.github.io/perl/monthtodatecost/</link>
+      <link>/perl/monthtodatecost/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/perl/monthtodatecost/</guid>
+      <guid>/perl/monthtodatecost/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;#!/usr/bin/perl
 use lib &amp;quot;/path/to/softlayer-api-perl-client/&amp;quot;;
 use SoftLayer::API::SOAP;
@@ -570,10 +570,10 @@ print $result-&amp;gt;result-&amp;gt;{&#39;hoursUsed&#39;} . &amp;quot; hours @ 
     
     <item>
       <title>Month-to-date cost of a Virtual_Guest</title>
-      <link>https://softlayer.github.io/rest/hourlycost_date/</link>
+      <link>/rest/hourlycost_date/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/hourlycost_date/</guid>
+      <guid>/rest/hourlycost_date/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Method: &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/getBillingItem&#34;&gt;&lt;code&gt;SoftLayer_Virtual_Guest::getBillingItem()&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
@@ -599,10 +599,10 @@ print $result-&amp;gt;result-&amp;gt;{&#39;hoursUsed&#39;} . &amp;quot; hours @ 
     
     <item>
       <title>Cancel virtual server</title>
-      <link>https://softlayer.github.io/rest/cancel_virtual_server/</link>
+      <link>/rest/cancel_virtual_server/</link>
       <pubDate>Sun, 15 Feb 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/cancel_virtual_server/</guid>
+      <guid>/rest/cancel_virtual_server/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;DELETE&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;URL: &lt;code&gt;SoftLayer_Virtual_Guest/{server_id}&lt;/code&gt;&lt;/p&gt;
@@ -622,10 +622,10 @@ https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/123456
     
     <item>
       <title>Create virtual server</title>
-      <link>https://softlayer.github.io/rest/create_virtual_server/</link>
+      <link>/rest/create_virtual_server/</link>
       <pubDate>Sun, 15 Feb 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/create_virtual_server/</guid>
+      <guid>/rest/create_virtual_server/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;POST&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;URL: &lt;code&gt;SoftLayer_Virtual_Guest.json?objectMask=id&lt;/code&gt;&lt;/p&gt;
@@ -665,10 +665,10 @@ https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest.json?objectMask=mask.i
     
     <item>
       <title>Get virtual server details</title>
-      <link>https://softlayer.github.io/rest/get_virtual_server_details/</link>
+      <link>/rest/get_virtual_server_details/</link>
       <pubDate>Sun, 15 Feb 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/get_virtual_server_details/</guid>
+      <guid>/rest/get_virtual_server_details/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;URL: &lt;code&gt;SoftLayer_Virtual_Guest/{server_id}&lt;/code&gt;&lt;/p&gt;
@@ -701,10 +701,10 @@ endIpAddress,primaryIpAddress,status.keyName]&amp;quot;
     
     <item>
       <title>Get primary ip address record</title>
-      <link>https://softlayer.github.io/php/primary_ip_address_record/</link>
+      <link>/php/primary_ip_address_record/</link>
       <pubDate>Sat, 03 Jan 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/primary_ip_address_record/</guid>
+      <guid>/php/primary_ip_address_record/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
 require_once &#39;./SoftLayer/SoapClient.class.php&#39;;
 

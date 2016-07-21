@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Create on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/tags/create/</link>
+    <link>/tags/create/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Create a new virtual server with all options</title>
-      <link>https://softlayer.github.io/python/create_vsi_options/</link>
+      <link>/python/create_vsi_options/</link>
       <pubDate>Sat, 01 Aug 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/create_vsi_options/</guid>
+      <guid>/python/create_vsi_options/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&#39;&#39;&#39;
 An example of how to create a VSI from the SL python library
 &#39;&#39;&#39;
@@ -79,10 +79,10 @@ if __name__ == &#39;__main__&#39;:
     
     <item>
       <title>Create virtual server</title>
-      <link>https://softlayer.github.io/rest/create_virtual_server/</link>
+      <link>/rest/create_virtual_server/</link>
       <pubDate>Sun, 15 Feb 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/create_virtual_server/</guid>
+      <guid>/rest/create_virtual_server/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;POST&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;URL: &lt;code&gt;SoftLayer_Virtual_Guest.json?objectMask=id&lt;/code&gt;&lt;/p&gt;

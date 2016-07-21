@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Objectfilter on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/tags/objectfilter/</link>
+    <link>/tags/objectfilter/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Find Location specific pricing for a package</title>
-      <link>https://softlayer.github.io/python/location_based_pricing/</link>
+      <link>/python/location_based_pricing/</link>
       <pubDate>Tue, 12 Apr 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/location_based_pricing/</guid>
+      <guid>/python/location_based_pricing/</guid>
       <description>&lt;p&gt;With the introduction to Location-based Pricing, we updated our pricing model to represent the costs in each data center more clearly. Instead of adding premiums to a base server price, we have priced servers and services in each data center with their own location-based &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Product_Item_Price&#34;&gt;SoftLayer_Product_Item_Price&lt;/a&gt; objects via the API. In the following example we will query for the Dallas 6 data center, and then filter our item (Local Load Balancer) and prices to include only the location-based pricing for the specific data center we&amp;rsquo;re in —or we can filter for the standard price if a location-based price doesn&amp;rsquo;t exist.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
@@ -94,10 +94,10 @@ print(json.dumps(items, sort_keys=True, indent=2, separators=(&#39;,&#39;, &#39;
     
     <item>
       <title>Get Notifications</title>
-      <link>https://softlayer.github.io/python/notifications/</link>
+      <link>/python/notifications/</link>
       <pubDate>Fri, 26 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/notifications/</guid>
+      <guid>/python/notifications/</guid>
       <description>&lt;p&gt;Retrieves all notifications that were created on January 1, 2016.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;import SoftLayer
@@ -131,10 +131,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Get tickets using an objectFilter</title>
-      <link>https://softlayer.github.io/python/ticket_filter/</link>
+      <link>/python/ticket_filter/</link>
       <pubDate>Fri, 26 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/ticket_filter/</guid>
+      <guid>/python/ticket_filter/</guid>
       <description>&lt;pre&gt;&lt;code&gt;import SoftLayer
 from pprint import pprint as pp
 import logging
@@ -205,10 +205,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Place block storage (performance ISCSI) order</title>
-      <link>https://softlayer.github.io/python/place_order_block_storage_performance_iscsi/</link>
+      <link>/python/place_order_block_storage_performance_iscsi/</link>
       <pubDate>Thu, 12 Nov 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/place_order_block_storage_performance_iscsi/</guid>
+      <guid>/python/place_order_block_storage_performance_iscsi/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;quot;&amp;quot;&amp;quot;
 Order a block storage (performance ISCSI).
 
@@ -351,10 +351,10 @@ except SoftLayer.SoftLayerAPIError as e:
     
     <item>
       <title>Determining SoftLayer Device Owners</title>
-      <link>https://softlayer.github.io/ruby/determining_device_owners/</link>
+      <link>/ruby/determining_device_owners/</link>
       <pubDate>Fri, 09 Oct 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/ruby/determining_device_owners/</guid>
+      <guid>/ruby/determining_device_owners/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;require &#39;softlayer_api&#39;
 require &#39;vine&#39;
 require &#39;pp&#39;
@@ -396,10 +396,10 @@ end
     
     <item>
       <title>Get tickets using an objectFilter</title>
-      <link>https://softlayer.github.io/php/ticket_filter/</link>
+      <link>/php/ticket_filter/</link>
       <pubDate>Wed, 08 Jul 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/ticket_filter/</guid>
+      <guid>/php/ticket_filter/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
 
 require_once &#39;./SoftLayer/SoapClient.class.php&#39;;
@@ -438,10 +438,10 @@ print_r($ticketClient-&amp;gt;__getLastRequest());
     
     <item>
       <title>Change Passwords</title>
-      <link>https://softlayer.github.io/python/change_multi_pass/</link>
+      <link>/python/change_multi_pass/</link>
       <pubDate>Sat, 30 May 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/change_multi_pass/</guid>
+      <guid>/python/change_multi_pass/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
 import SoftLayer
 import pprint
@@ -486,10 +486,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Get top level billing items for all owned accounts</title>
-      <link>https://softlayer.github.io/php/get_invoice_top_level_items/</link>
+      <link>/php/get_invoice_top_level_items/</link>
       <pubDate>Sun, 24 May 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/get_invoice_top_level_items/</guid>
+      <guid>/php/get_invoice_top_level_items/</guid>
       <description>&lt;p&gt;With a given date range, get all the invoice details for all of the owned brands, and all of their owned accounts. The $filter can be used to get just a single accounts invoices, just take off the -&amp;gt;allOwnedAccounts bits&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
@@ -623,10 +623,10 @@ $main-&amp;gt;main();
     
     <item>
       <title>Get Invoices</title>
-      <link>https://softlayer.github.io/php/get_invoice/</link>
+      <link>/php/get_invoice/</link>
       <pubDate>Sun, 22 Feb 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/get_invoice/</guid>
+      <guid>/php/get_invoice/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
 require_once __DIR__.&#39;/vendor/autoload.php&#39;;
  
@@ -670,10 +670,10 @@ print_r($invoices);
     
     <item>
       <title>Server Locate</title>
-      <link>https://softlayer.github.io/ruby/server_locate/</link>
+      <link>/ruby/server_locate/</link>
       <pubDate>Tue, 30 Sep 2014 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/ruby/server_locate/</guid>
+      <guid>/ruby/server_locate/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;require &#39;softlayer_api&#39; # gem install softlayer_api
 require &#39;table_print&#39; # gem install table_print
 

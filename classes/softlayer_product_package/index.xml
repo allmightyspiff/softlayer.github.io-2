@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Softlayer_product_package on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/classes/softlayer_product_package/</link>
+    <link>/classes/softlayer_product_package/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Find Location specific pricing for a package</title>
-      <link>https://softlayer.github.io/python/location_based_pricing/</link>
+      <link>/python/location_based_pricing/</link>
       <pubDate>Tue, 12 Apr 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/location_based_pricing/</guid>
+      <guid>/python/location_based_pricing/</guid>
       <description>&lt;p&gt;With the introduction to Location-based Pricing, we updated our pricing model to represent the costs in each data center more clearly. Instead of adding premiums to a base server price, we have priced servers and services in each data center with their own location-based &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Product_Item_Price&#34;&gt;SoftLayer_Product_Item_Price&lt;/a&gt; objects via the API. In the following example we will query for the Dallas 6 data center, and then filter our item (Local Load Balancer) and prices to include only the location-based pricing for the specific data center we&amp;rsquo;re in —or we can filter for the standard price if a location-based price doesn&amp;rsquo;t exist.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
@@ -94,10 +94,10 @@ print(json.dumps(items, sort_keys=True, indent=2, separators=(&#39;,&#39;, &#39;
     
     <item>
       <title>Find standard location pricing for a package</title>
-      <link>https://softlayer.github.io/python/standard_pricing/</link>
+      <link>/python/standard_pricing/</link>
       <pubDate>Tue, 12 Apr 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/standard_pricing/</guid>
+      <guid>/python/standard_pricing/</guid>
       <description>&lt;p&gt;With the introduction to Location-based Pricing, we updated our pricing model to represent the costs in each data center more clearly. Instead of adding premiums to a base server price, we have priced servers and services in each data center with their own location-based &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Product_Item_Price&#34;&gt;SoftLayer_Product_Item_Price&lt;/a&gt; objects via the API. The following example shows how to get the Standard priceItemId for a package regardless of the location.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
@@ -125,10 +125,10 @@ print(json.dumps(items, sort_keys=True, indent=2, separators=(&#39;,&#39;, &#39;
     
     <item>
       <title>Order Firewall and Security Appliances</title>
-      <link>https://softlayer.github.io/php/orderFirewalls/</link>
+      <link>/php/orderFirewalls/</link>
       <pubDate>Wed, 11 Nov 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/orderFirewalls/</guid>
+      <guid>/php/orderFirewalls/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
 
 require_once &#39;./vendor/autoload.php&#39;;
@@ -260,10 +260,10 @@ $example = new Example();
     
     <item>
       <title>Order Server with security software</title>
-      <link>https://softlayer.github.io/php/orderBareMetal/</link>
+      <link>/php/orderBareMetal/</link>
       <pubDate>Wed, 11 Nov 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/orderBareMetal/</guid>
+      <guid>/php/orderBareMetal/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
 
 require_once &#39;./vendor/autoload.php&#39;;
@@ -384,10 +384,10 @@ $example-&amp;gt;placeOrder();
     
     <item>
       <title>Order an SSL Certificate</title>
-      <link>https://softlayer.github.io/php/orderSSLCert/</link>
+      <link>/php/orderSSLCert/</link>
       <pubDate>Wed, 11 Nov 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/orderSSLCert/</guid>
+      <guid>/php/orderSSLCert/</guid>
       <description>
 
 &lt;h4 id=&#34;generating-a-csr:a798909b54a41db7cd3faf021a46bea5&#34;&gt;Generating a CSR&lt;/h4&gt;
@@ -530,10 +530,10 @@ $example-&amp;gt;placeOrder();
     
     <item>
       <title>Order an SSL Certificate</title>
-      <link>https://softlayer.github.io/python/orderSSLCert/</link>
+      <link>/python/orderSSLCert/</link>
       <pubDate>Wed, 11 Nov 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/orderSSLCert/</guid>
+      <guid>/python/orderSSLCert/</guid>
       <description>
 
 &lt;h4 id=&#34;generating-a-csr:a798909b54a41db7cd3faf021a46bea5&#34;&gt;Generating a CSR&lt;/h4&gt;
@@ -645,10 +645,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>List Packages</title>
-      <link>https://softlayer.github.io/ruby/list_packages/</link>
+      <link>/ruby/list_packages/</link>
       <pubDate>Mon, 12 Oct 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/ruby/list_packages/</guid>
+      <guid>/ruby/list_packages/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;require &#39;softlayer_api&#39;
 require &#39;pp&#39;
 
@@ -716,10 +716,10 @@ pp client[&#39;Location_Group_Pricing&#39;].object_mask(mask).getAllObjects
     
     <item>
       <title>List Packages</title>
-      <link>https://softlayer.github.io/python/list_packages/</link>
+      <link>/python/list_packages/</link>
       <pubDate>Fri, 28 Aug 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/list_packages/</guid>
+      <guid>/python/list_packages/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
 import SoftLayer
 from pprint import pprint as pp
@@ -787,10 +787,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Upgrade virtual guest</title>
-      <link>https://softlayer.github.io/php/upgrade_virtual_guest/</link>
+      <link>/php/upgrade_virtual_guest/</link>
       <pubDate>Sun, 15 Feb 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/upgrade_virtual_guest/</guid>
+      <guid>/php/upgrade_virtual_guest/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
 require_once &#39;./SoftLayer/XmlrpcClient.class.php&#39;;
 
@@ -838,10 +838,10 @@ print_r($response);
     
     <item>
       <title>Required price IDs for package</title>
-      <link>https://softlayer.github.io/php/get_required_price_id/</link>
+      <link>/php/get_required_price_id/</link>
       <pubDate>Mon, 01 Sep 2014 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/get_required_price_id/</guid>
+      <guid>/php/get_required_price_id/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
 
 /* follow the installation instructions to get SoftLayer API PHP Client working: https://github.com/softlayer/softlayer-api-php-client#installation */
@@ -904,10 +904,10 @@ try {
     
     <item>
       <title>Required price IDs for package</title>
-      <link>https://softlayer.github.io/python/get_required_price_id/</link>
+      <link>/python/get_required_price_id/</link>
       <pubDate>Mon, 01 Sep 2014 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/get_required_price_id/</guid>
+      <guid>/python/get_required_price_id/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import SoftLayer
 package = 46
 

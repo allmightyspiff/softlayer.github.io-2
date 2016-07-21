@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Release_notes on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/release_notes/</link>
+    <link>/release_notes/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Release notes: July 11, 2016</title>
-      <link>https://softlayer.github.io/release_notes/20160711/</link>
+      <link>/release_notes/20160711/</link>
       <pubDate>Mon, 11 Jul 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/release_notes/20160711/</guid>
+      <guid>/release_notes/20160711/</guid>
       <description>
 
 &lt;h4 id=&#34;portal:f7a7a1634666100008cbbd5dca0ed5ef&#34;&gt;Portal&lt;/h4&gt;
@@ -40,10 +40,10 @@
     
     <item>
       <title>Release notes: July 6, 2016</title>
-      <link>https://softlayer.github.io/release_notes/20160706/</link>
+      <link>/release_notes/20160706/</link>
       <pubDate>Wed, 06 Jul 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/release_notes/20160706/</guid>
+      <guid>/release_notes/20160706/</guid>
       <description>
 
 &lt;h4 id=&#34;portal:ecd9ce8d371c9a9e437e3a6c1abee306&#34;&gt;Portal&lt;/h4&gt;
@@ -74,10 +74,10 @@
     
     <item>
       <title>Release notes: June 27, 2016</title>
-      <link>https://softlayer.github.io/release_notes/20160628/</link>
+      <link>/release_notes/20160628/</link>
       <pubDate>Mon, 27 Jun 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/release_notes/20160628/</guid>
+      <guid>/release_notes/20160628/</guid>
       <description>
 
 &lt;h4 id=&#34;portal:cdd70531fefab18e4052a9eac4e6b165&#34;&gt;Portal&lt;/h4&gt;
@@ -102,10 +102,10 @@
     
     <item>
       <title>Release notes: June 20, 2016</title>
-      <link>https://softlayer.github.io/release_notes/20160620/</link>
+      <link>/release_notes/20160620/</link>
       <pubDate>Mon, 20 Jun 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/release_notes/20160620/</guid>
+      <guid>/release_notes/20160620/</guid>
       <description>
 
 &lt;h4 id=&#34;portal:a71aac5b592424babcc52df38709a416&#34;&gt;Portal&lt;/h4&gt;
@@ -130,10 +130,10 @@
     
     <item>
       <title>Release notes: June 13, 2016</title>
-      <link>https://softlayer.github.io/release_notes/20160613/</link>
+      <link>/release_notes/20160613/</link>
       <pubDate>Mon, 13 Jun 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/release_notes/20160613/</guid>
+      <guid>/release_notes/20160613/</guid>
       <description>
 
 &lt;h4 id=&#34;portal:28e4eb7f361e92b26ee7724a3aa0fbeb&#34;&gt;Portal&lt;/h4&gt;
@@ -158,10 +158,10 @@
     
     <item>
       <title>Release notes: June 6, 2016</title>
-      <link>https://softlayer.github.io/release_notes/20160606/</link>
+      <link>/release_notes/20160606/</link>
       <pubDate>Mon, 06 Jun 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/release_notes/20160606/</guid>
+      <guid>/release_notes/20160606/</guid>
       <description>
 
 &lt;h4 id=&#34;portal:7f7a27ebacc1522b7b4a725b8cc1085d&#34;&gt;Portal&lt;/h4&gt;
@@ -188,10 +188,10 @@
     
     <item>
       <title>Release notes: May 31, 2016</title>
-      <link>https://softlayer.github.io/release_notes/20160601/</link>
+      <link>/release_notes/20160601/</link>
       <pubDate>Tue, 31 May 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/release_notes/20160601/</guid>
+      <guid>/release_notes/20160601/</guid>
       <description>
 
 &lt;h4 id=&#34;portal:66a2e7b2879656754f6525910eaf4d0e&#34;&gt;Portal&lt;/h4&gt;
@@ -218,10 +218,10 @@
     
     <item>
       <title>Release notes: May 23, 2016</title>
-      <link>https://softlayer.github.io/release_notes/20160523/</link>
+      <link>/release_notes/20160523/</link>
       <pubDate>Mon, 23 May 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/release_notes/20160523/</guid>
+      <guid>/release_notes/20160523/</guid>
       <description>
 
 &lt;h4 id=&#34;portal:e325a4d274c80c41b67bc5433224a0a4&#34;&gt;Portal&lt;/h4&gt;
@@ -247,10 +247,10 @@
     
     <item>
       <title>Release notes: May 16, 2016</title>
-      <link>https://softlayer.github.io/release_notes/20160516/</link>
+      <link>/release_notes/20160516/</link>
       <pubDate>Mon, 16 May 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/release_notes/20160516/</guid>
+      <guid>/release_notes/20160516/</guid>
       <description>
 
 &lt;h4 id=&#34;portal:1ecb3c33b397cf0f5f7310a087b64288&#34;&gt;Portal&lt;/h4&gt;
@@ -277,10 +277,10 @@
     
     <item>
       <title>Release notes: May 9, 2016</title>
-      <link>https://softlayer.github.io/release_notes/20160509/</link>
+      <link>/release_notes/20160509/</link>
       <pubDate>Mon, 09 May 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/release_notes/20160509/</guid>
+      <guid>/release_notes/20160509/</guid>
       <description>
 
 &lt;h4 id=&#34;portal:edd9ff234770975233b24460efd64f60&#34;&gt;Portal&lt;/h4&gt;
@@ -306,10 +306,10 @@
     
     <item>
       <title>Release notes: April 25, 2016</title>
-      <link>https://softlayer.github.io/release_notes/20160425/</link>
+      <link>/release_notes/20160425/</link>
       <pubDate>Mon, 25 Apr 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/release_notes/20160425/</guid>
+      <guid>/release_notes/20160425/</guid>
       <description>
 
 &lt;h4 id=&#34;portal:c24eb79dee0ca4c00431511210782430&#34;&gt;Portal&lt;/h4&gt;
@@ -335,10 +335,10 @@
     
     <item>
       <title>Release notes: April 18, 2016</title>
-      <link>https://softlayer.github.io/release_notes/20160418/</link>
+      <link>/release_notes/20160418/</link>
       <pubDate>Mon, 18 Apr 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/release_notes/20160418/</guid>
+      <guid>/release_notes/20160418/</guid>
       <description>
 
 &lt;h4 id=&#34;portal:b0ae1fc0f77d3ea1dc28e8e43fcaa10d&#34;&gt;Portal&lt;/h4&gt;
@@ -364,10 +364,10 @@
     
     <item>
       <title>Release notes: April 11, 2016</title>
-      <link>https://softlayer.github.io/release_notes/20160411/</link>
+      <link>/release_notes/20160411/</link>
       <pubDate>Mon, 11 Apr 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/release_notes/20160411/</guid>
+      <guid>/release_notes/20160411/</guid>
       <description>
 
 &lt;h4 id=&#34;portal:85777ae8ba6274540c4293927990daf8&#34;&gt;Portal&lt;/h4&gt;
@@ -394,10 +394,10 @@
     
     <item>
       <title>Release notes: April 4, 2016</title>
-      <link>https://softlayer.github.io/release_notes/20160404/</link>
+      <link>/release_notes/20160404/</link>
       <pubDate>Mon, 04 Apr 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/release_notes/20160404/</guid>
+      <guid>/release_notes/20160404/</guid>
       <description>
 
 &lt;h4 id=&#34;portal:460e5c802b9ca2a2382b95392cadb303&#34;&gt;Portal&lt;/h4&gt;
@@ -427,10 +427,10 @@
     
     <item>
       <title>Release notes: March 28, 2016</title>
-      <link>https://softlayer.github.io/release_notes/20160328/</link>
+      <link>/release_notes/20160328/</link>
       <pubDate>Mon, 28 Mar 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/release_notes/20160328/</guid>
+      <guid>/release_notes/20160328/</guid>
       <description>
 
 &lt;h4 id=&#34;portal:1081b0aac7560b053b9bd4652a2c481d&#34;&gt;Portal&lt;/h4&gt;

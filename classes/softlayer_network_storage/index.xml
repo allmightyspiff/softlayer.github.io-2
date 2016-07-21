@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Softlayer_network_storage on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/classes/softlayer_network_storage/</link>
+    <link>/classes/softlayer_network_storage/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Find a billing item from a provisioned product</title>
-      <link>https://softlayer.github.io/ruby/billingfromproduct/</link>
+      <link>/ruby/billingfromproduct/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/ruby/billingfromproduct/</guid>
+      <guid>/ruby/billingfromproduct/</guid>
       <description>&lt;p&gt;In the following example we are looking for the Billing Item of an Endurance Storage volume with an ID of 1234567.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;# add your network storage id, it can be found by doing this call: http://sldn.softlayer.com/reference/services/SoftLayer_Account/getNasNetworkStorage
@@ -27,10 +27,10 @@ pp item[&#39;billingItem&#39;]
     
     <item>
       <title>Find a billing item from a provisioned product</title>
-      <link>https://softlayer.github.io/rest/get_billing_id/</link>
+      <link>/rest/get_billing_id/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/get_billing_id/</guid>
+      <guid>/rest/get_billing_id/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Method: &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Network_Storage/getBillingItem&#34;&gt;&lt;code&gt;SoftLayer_Network_Storage::getBillingItem()&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;

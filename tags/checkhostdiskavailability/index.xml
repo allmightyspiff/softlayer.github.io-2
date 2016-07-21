@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Checkhostdiskavailability on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/tags/checkhostdiskavailability/</link>
+    <link>/tags/checkhostdiskavailability/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Attach and Detach a Block Device to a Virtual_Guest</title>
-      <link>https://softlayer.github.io/python/attach_disk/</link>
+      <link>/python/attach_disk/</link>
       <pubDate>Thu, 03 Mar 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/attach_disk/</guid>
+      <guid>/python/attach_disk/</guid>
       <description>&lt;p&gt;Attaching a currently detached portable block device to a given guest. The disk image will need to be migrated to the host the guest is on, so make sure to check if that host has enough disk space (with checkHostDiskAvailability) before attaching. This is only required for guests with local storage guests. SAN based guests don&amp;rsquo;t need that step.&lt;/p&gt;
 
 &lt;p&gt;Running this on a disk that is already attached will move the disk to the new guest.&lt;/p&gt;

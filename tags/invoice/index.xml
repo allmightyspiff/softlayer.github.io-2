@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Invoice on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/tags/invoice/</link>
+    <link>/tags/invoice/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Get Invoice for PowerShell</title>
-      <link>https://softlayer.github.io/rest/getInvoicesPowershell/</link>
+      <link>/rest/getInvoicesPowershell/</link>
       <pubDate>Mon, 25 Apr 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/getInvoicesPowershell/</guid>
+      <guid>/rest/getInvoicesPowershell/</guid>
       <description>&lt;p&gt;This powershell script will get the filename for the PDF and Excel invoices and save them locally. Requires &lt;a href=&#34;http://social.technet.microsoft.com/wiki/contents/articles/21016.how-to-install-windows-powershell-4-0.aspx&#34;&gt;PowerShell Version 4&lt;/a&gt; for the Invoke-WebRequest and ConvertFrom-Json functions.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-ps1&#34;&gt;# Start SL script
@@ -100,10 +100,10 @@ Add-Content $log &amp;quot;$(Get-Date -format s) : End&amp;quot;
     
     <item>
       <title>Determining your next bill</title>
-      <link>https://softlayer.github.io/python/nextinvoice/</link>
+      <link>/python/nextinvoice/</link>
       <pubDate>Mon, 08 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/nextinvoice/</guid>
+      <guid>/python/nextinvoice/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
 import SoftLayer
 from pprint import pprint as pp
@@ -118,10 +118,10 @@ pp(nextInvoiceAmount)
     
     <item>
       <title>Determining your next bill</title>
-      <link>https://softlayer.github.io/php/getnextinvoice/</link>
+      <link>/php/getnextinvoice/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/getnextinvoice/</guid>
+      <guid>/php/getnextinvoice/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
 
 require_once &#39;./vendor/autoload.php&#39;;
@@ -143,10 +143,10 @@ try {
     
     <item>
       <title>Determining your next bill</title>
-      <link>https://softlayer.github.io/ruby/nextinvoice/</link>
+      <link>/ruby/nextinvoice/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/ruby/nextinvoice/</guid>
+      <guid>/ruby/nextinvoice/</guid>
       <description>
 
 &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;# SoftLayer library will look to see if these global variables are set when making a connection
@@ -170,10 +170,10 @@ puts &amp;quot;Next invoice total amount: #{total_amount}&amp;quot;
     
     <item>
       <title>Retrieve the amount of your next invoice</title>
-      <link>https://softlayer.github.io/perl/nextbilling/</link>
+      <link>/perl/nextbilling/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/perl/nextbilling/</guid>
+      <guid>/perl/nextbilling/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;use lib &amp;quot;./softlayer-api-perl-client/&amp;quot;;
 use SoftLayer::API::SOAP;
 use Data::Dumper;
@@ -192,10 +192,10 @@ print &amp;quot;Next Invoice Total: &amp;quot; . $result-&amp;gt;result . &amp;q
     
     <item>
       <title>Get top level billing items for all owned accounts</title>
-      <link>https://softlayer.github.io/php/get_invoice_top_level_items/</link>
+      <link>/php/get_invoice_top_level_items/</link>
       <pubDate>Sun, 24 May 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/get_invoice_top_level_items/</guid>
+      <guid>/php/get_invoice_top_level_items/</guid>
       <description>&lt;p&gt;With a given date range, get all the invoice details for all of the owned brands, and all of their owned accounts. The $filter can be used to get just a single accounts invoices, just take off the -&amp;gt;allOwnedAccounts bits&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
@@ -329,10 +329,10 @@ $main-&amp;gt;main();
     
     <item>
       <title>Get Invoices</title>
-      <link>https://softlayer.github.io/php/get_invoice/</link>
+      <link>/php/get_invoice/</link>
       <pubDate>Sun, 22 Feb 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/get_invoice/</guid>
+      <guid>/php/get_invoice/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
 require_once __DIR__.&#39;/vendor/autoload.php&#39;;
  

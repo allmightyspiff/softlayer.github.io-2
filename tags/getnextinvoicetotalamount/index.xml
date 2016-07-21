@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Getnextinvoicetotalamount on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/tags/getnextinvoicetotalamount/</link>
+    <link>/tags/getnextinvoicetotalamount/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Determining your next bill</title>
-      <link>https://softlayer.github.io/rest/next_bill/</link>
+      <link>/rest/next_bill/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/next_bill/</guid>
+      <guid>/rest/next_bill/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Method: &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Account/getNextInvoiceTotalAmount&#34;&gt;&lt;code&gt;SoftLayer_Account::getNextInvoiceTotalAmount()&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;

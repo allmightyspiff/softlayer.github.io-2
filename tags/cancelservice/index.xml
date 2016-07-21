@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Cancelservice on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/tags/cancelservice/</link>
+    <link>/tags/cancelservice/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Cancel an item or service</title>
-      <link>https://softlayer.github.io/php/cancelservice/</link>
+      <link>/php/cancelservice/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/cancelservice/</guid>
+      <guid>/php/cancelservice/</guid>
       <description>&lt;p&gt;In order to cancel an item or service you must know the billing item ID. In the following example we are retrieving the billing item ID for our Virtual Guest with ID &amp;lsquo;15690533&amp;rsquo;:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;?php
@@ -62,10 +62,10 @@ try {
     
     <item>
       <title>Cancel an item or service</title>
-      <link>https://softlayer.github.io/ruby/cancelservice/</link>
+      <link>/ruby/cancelservice/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/ruby/cancelservice/</guid>
+      <guid>/ruby/cancelservice/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;require &#39;softlayer_api&#39; # Requires softlayer_api &amp;gt;= 3.2
 require &#39;pp&#39; # used to display results
 
@@ -93,10 +93,10 @@ if item and item[&#39;billingItem&#39;] and client[:Billing_Item].object_with_id
     
     <item>
       <title>Cancel item</title>
-      <link>https://softlayer.github.io/perl/cancelitem/</link>
+      <link>/perl/cancelitem/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/perl/cancelitem/</guid>
+      <guid>/perl/cancelitem/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;#!/usr/bin/perl
 use lib &amp;quot;/path/to/softlayer-api-perl-client/&amp;quot;;
 use SoftLayer::API::SOAP;
@@ -117,10 +117,10 @@ print Dumper($result-&amp;gt;result);
     
     <item>
       <title>Cancel an item or service</title>
-      <link>https://softlayer.github.io/rest/cancel_service/</link>
+      <link>/rest/cancel_service/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/cancel_service/</guid>
+      <guid>/rest/cancel_service/</guid>
       <description>
 
 &lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;

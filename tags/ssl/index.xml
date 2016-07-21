@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Ssl on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/tags/ssl/</link>
+    <link>/tags/ssl/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Order an SSL Certificate</title>
-      <link>https://softlayer.github.io/php/orderSSLCert/</link>
+      <link>/php/orderSSLCert/</link>
       <pubDate>Wed, 11 Nov 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/orderSSLCert/</guid>
+      <guid>/php/orderSSLCert/</guid>
       <description>
 
 &lt;h4 id=&#34;generating-a-csr:a798909b54a41db7cd3faf021a46bea5&#34;&gt;Generating a CSR&lt;/h4&gt;
@@ -156,10 +156,10 @@ $example-&amp;gt;placeOrder();
     
     <item>
       <title>Order an SSL Certificate</title>
-      <link>https://softlayer.github.io/python/orderSSLCert/</link>
+      <link>/python/orderSSLCert/</link>
       <pubDate>Wed, 11 Nov 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/orderSSLCert/</guid>
+      <guid>/python/orderSSLCert/</guid>
       <description>
 
 &lt;h4 id=&#34;generating-a-csr:a798909b54a41db7cd3faf021a46bea5&#34;&gt;Generating a CSR&lt;/h4&gt;

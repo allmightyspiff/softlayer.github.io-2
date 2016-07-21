@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Rest on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/rest/</link>
+    <link>/rest/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Find out which user placed an order</title>
-      <link>https://softlayer.github.io/rest/which_user_placed_order/</link>
+      <link>/rest/which_user_placed_order/</link>
       <pubDate>Thu, 26 May 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/which_user_placed_order/</guid>
+      <guid>/rest/which_user_placed_order/</guid>
       <description>
 
 &lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
@@ -88,10 +88,10 @@
     
     <item>
       <title>Order a Local Load Balancer</title>
-      <link>https://softlayer.github.io/rest/orderLB/</link>
+      <link>/rest/orderLB/</link>
       <pubDate>Thu, 05 May 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/orderLB/</guid>
+      <guid>/rest/orderLB/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;POST&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Method: &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Product_Order/verifyOrder&#34;&gt;&lt;code&gt;SoftLayer_Product_Order::verifyOrder()&lt;/code&gt;&lt;/a&gt;
@@ -116,10 +116,10 @@ URL: SoftLayer_Product_Order/placeOrder&lt;/p&gt;
     
     <item>
       <title>Create a new Bandwidth Pool</title>
-      <link>https://softlayer.github.io/rest/createBWpool/</link>
+      <link>/rest/createBWpool/</link>
       <pubDate>Mon, 02 May 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/createBWpool/</guid>
+      <guid>/rest/createBWpool/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;POST&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Method: &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment/createObject&#34;&gt;&lt;code&gt;SoftLayer_Network_Bandwidth_Version1_Allotment::createObject()&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
@@ -148,10 +148,10 @@ URL: SoftLayer_Product_Order/placeOrder&lt;/p&gt;
     
     <item>
       <title>Get Invoice for PowerShell</title>
-      <link>https://softlayer.github.io/rest/getInvoicesPowershell/</link>
+      <link>/rest/getInvoicesPowershell/</link>
       <pubDate>Mon, 25 Apr 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/getInvoicesPowershell/</guid>
+      <guid>/rest/getInvoicesPowershell/</guid>
       <description>&lt;p&gt;This powershell script will get the filename for the PDF and Excel invoices and save them locally. Requires &lt;a href=&#34;http://social.technet.microsoft.com/wiki/contents/articles/21016.how-to-install-windows-powershell-4-0.aspx&#34;&gt;PowerShell Version 4&lt;/a&gt; for the Invoke-WebRequest and ConvertFrom-Json functions.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-ps1&#34;&gt;# Start SL script
@@ -238,10 +238,10 @@ Add-Content $log &amp;quot;$(Get-Date -format s) : End&amp;quot;
     
     <item>
       <title>Cancel an item or service</title>
-      <link>https://softlayer.github.io/rest/cancel_service/</link>
+      <link>/rest/cancel_service/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/cancel_service/</guid>
+      <guid>/rest/cancel_service/</guid>
       <description>
 
 &lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
@@ -268,10 +268,10 @@ Add-Content $log &amp;quot;$(Get-Date -format s) : End&amp;quot;
     
     <item>
       <title>Determining your next bill</title>
-      <link>https://softlayer.github.io/rest/next_bill/</link>
+      <link>/rest/next_bill/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/next_bill/</guid>
+      <guid>/rest/next_bill/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Method: &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Account/getNextInvoiceTotalAmount&#34;&gt;&lt;code&gt;SoftLayer_Account::getNextInvoiceTotalAmount()&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
@@ -292,10 +292,10 @@ Add-Content $log &amp;quot;$(Get-Date -format s) : End&amp;quot;
     
     <item>
       <title>Find a billing item from a provisioned product</title>
-      <link>https://softlayer.github.io/rest/get_billing_id/</link>
+      <link>/rest/get_billing_id/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/get_billing_id/</guid>
+      <guid>/rest/get_billing_id/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Method: &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Network_Storage/getBillingItem&#34;&gt;&lt;code&gt;SoftLayer_Network_Storage::getBillingItem()&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
@@ -341,10 +341,10 @@ Add-Content $log &amp;quot;$(Get-Date -format s) : End&amp;quot;
     
     <item>
       <title>Find provisioned product from a billing item</title>
-      <link>https://softlayer.github.io/rest/find_product_from_billing/</link>
+      <link>/rest/find_product_from_billing/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/find_product_from_billing/</guid>
+      <guid>/rest/find_product_from_billing/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Method: &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Billing_Item/getAssociatedParent&#34;&gt;&lt;code&gt;SoftLayer_Billing_Item::getAssociatedParent()&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
@@ -371,10 +371,10 @@ Add-Content $log &amp;quot;$(Get-Date -format s) : End&amp;quot;
     
     <item>
       <title>Month-to-date cost of a Virtual_Guest</title>
-      <link>https://softlayer.github.io/rest/hourlycost_date/</link>
+      <link>/rest/hourlycost_date/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/hourlycost_date/</guid>
+      <guid>/rest/hourlycost_date/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Method: &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/getBillingItem&#34;&gt;&lt;code&gt;SoftLayer_Virtual_Guest::getBillingItem()&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
@@ -400,10 +400,10 @@ Add-Content $log &amp;quot;$(Get-Date -format s) : End&amp;quot;
     
     <item>
       <title>Get Hardware hostnames</title>
-      <link>https://softlayer.github.io/rest/get_hardware_hostname/</link>
+      <link>/rest/get_hardware_hostname/</link>
       <pubDate>Wed, 30 Sep 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/get_hardware_hostname/</guid>
+      <guid>/rest/get_hardware_hostname/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Method: &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Account/getObject&#34;&gt;&lt;code&gt;SoftLayer_Account::getObject()&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
@@ -440,10 +440,10 @@ Add-Content $log &amp;quot;$(Get-Date -format s) : End&amp;quot;
     
     <item>
       <title>Get hostnames</title>
-      <link>https://softlayer.github.io/rest/get_hostnames/</link>
+      <link>/rest/get_hostnames/</link>
       <pubDate>Wed, 30 Sep 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/get_hostnames/</guid>
+      <guid>/rest/get_hostnames/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Method: &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Account/getObject&#34;&gt;&lt;code&gt;SoftLayer_Account::getObject()&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
@@ -541,10 +541,10 @@ Add-Content $log &amp;quot;$(Get-Date -format s) : End&amp;quot;
     
     <item>
       <title>GetHardware with network components</title>
-      <link>https://softlayer.github.io/rest/get_hardware_components/</link>
+      <link>/rest/get_hardware_components/</link>
       <pubDate>Wed, 30 Sep 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/get_hardware_components/</guid>
+      <guid>/rest/get_hardware_components/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Method: &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Account/getHardware&#34;&gt;&lt;code&gt;SoftLayer_Account::getHardware()&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
@@ -688,10 +688,10 @@ Add-Content $log &amp;quot;$(Get-Date -format s) : End&amp;quot;
     
     <item>
       <title>Ordering with placeOrder</title>
-      <link>https://softlayer.github.io/rest/place_order/</link>
+      <link>/rest/place_order/</link>
       <pubDate>Wed, 30 Sep 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/place_order/</guid>
+      <guid>/rest/place_order/</guid>
       <description>
 
 &lt;p&gt;Operation: &lt;code&gt;POST&lt;/code&gt;&lt;/p&gt;
@@ -1270,10 +1270,10 @@ https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/verifyOrder
     
     <item>
       <title>Cancel virtual server</title>
-      <link>https://softlayer.github.io/rest/cancel_virtual_server/</link>
+      <link>/rest/cancel_virtual_server/</link>
       <pubDate>Sun, 15 Feb 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/cancel_virtual_server/</guid>
+      <guid>/rest/cancel_virtual_server/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;DELETE&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;URL: &lt;code&gt;SoftLayer_Virtual_Guest/{server_id}&lt;/code&gt;&lt;/p&gt;
@@ -1293,10 +1293,10 @@ https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/123456
     
     <item>
       <title>Create virtual server</title>
-      <link>https://softlayer.github.io/rest/create_virtual_server/</link>
+      <link>/rest/create_virtual_server/</link>
       <pubDate>Sun, 15 Feb 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/create_virtual_server/</guid>
+      <guid>/rest/create_virtual_server/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;POST&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;URL: &lt;code&gt;SoftLayer_Virtual_Guest.json?objectMask=id&lt;/code&gt;&lt;/p&gt;

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Ordering on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/tags/ordering/</link>
+    <link>/tags/ordering/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Manage Users</title>
-      <link>https://softlayer.github.io/python/manageUsers/</link>
+      <link>/python/manageUsers/</link>
       <pubDate>Tue, 01 Mar 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/manageUsers/</guid>
+      <guid>/python/manageUsers/</guid>
       <description>&lt;p&gt;Creates a user, sets up proper permissions, sets up devices access restrictions, creates API keys and orders the user a server.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;import SoftLayer.API
@@ -227,10 +227,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Order Firewall and Security Appliances</title>
-      <link>https://softlayer.github.io/php/orderFirewalls/</link>
+      <link>/php/orderFirewalls/</link>
       <pubDate>Wed, 11 Nov 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/orderFirewalls/</guid>
+      <guid>/php/orderFirewalls/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
 
 require_once &#39;./vendor/autoload.php&#39;;
@@ -362,10 +362,10 @@ $example = new Example();
     
     <item>
       <title>Order Server with security software</title>
-      <link>https://softlayer.github.io/php/orderBareMetal/</link>
+      <link>/php/orderBareMetal/</link>
       <pubDate>Wed, 11 Nov 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/orderBareMetal/</guid>
+      <guid>/php/orderBareMetal/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
 
 require_once &#39;./vendor/autoload.php&#39;;
@@ -486,10 +486,10 @@ $example-&amp;gt;placeOrder();
     
     <item>
       <title>Order an SSL Certificate</title>
-      <link>https://softlayer.github.io/php/orderSSLCert/</link>
+      <link>/php/orderSSLCert/</link>
       <pubDate>Wed, 11 Nov 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/orderSSLCert/</guid>
+      <guid>/php/orderSSLCert/</guid>
       <description>
 
 &lt;h4 id=&#34;generating-a-csr:a798909b54a41db7cd3faf021a46bea5&#34;&gt;Generating a CSR&lt;/h4&gt;
@@ -632,10 +632,10 @@ $example-&amp;gt;placeOrder();
     
     <item>
       <title>Order an SSL Certificate</title>
-      <link>https://softlayer.github.io/python/orderSSLCert/</link>
+      <link>/python/orderSSLCert/</link>
       <pubDate>Wed, 11 Nov 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/orderSSLCert/</guid>
+      <guid>/python/orderSSLCert/</guid>
       <description>
 
 &lt;h4 id=&#34;generating-a-csr:a798909b54a41db7cd3faf021a46bea5&#34;&gt;Generating a CSR&lt;/h4&gt;
@@ -747,10 +747,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>List Packages</title>
-      <link>https://softlayer.github.io/ruby/list_packages/</link>
+      <link>/ruby/list_packages/</link>
       <pubDate>Mon, 12 Oct 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/ruby/list_packages/</guid>
+      <guid>/ruby/list_packages/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;require &#39;softlayer_api&#39;
 require &#39;pp&#39;
 
@@ -818,10 +818,10 @@ pp client[&#39;Location_Group_Pricing&#39;].object_mask(mask).getAllObjects
     
     <item>
       <title>Create a virtual server from an existing image template</title>
-      <link>https://softlayer.github.io/ruby/create_server_from_template/</link>
+      <link>/ruby/create_server_from_template/</link>
       <pubDate>Wed, 07 Oct 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/ruby/create_server_from_template/</guid>
+      <guid>/ruby/create_server_from_template/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;require &#39;softlayer_api&#39;
 require &#39;pp&#39;
 
@@ -863,10 +863,10 @@ pp order.verify
     
     <item>
       <title>Ordering with placeOrder</title>
-      <link>https://softlayer.github.io/rest/place_order/</link>
+      <link>/rest/place_order/</link>
       <pubDate>Wed, 30 Sep 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/place_order/</guid>
+      <guid>/rest/place_order/</guid>
       <description>
 
 &lt;p&gt;Operation: &lt;code&gt;POST&lt;/code&gt;&lt;/p&gt;
@@ -1445,10 +1445,10 @@ https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/verifyOrder
     
     <item>
       <title>List Packages</title>
-      <link>https://softlayer.github.io/python/list_packages/</link>
+      <link>/python/list_packages/</link>
       <pubDate>Fri, 28 Aug 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/list_packages/</guid>
+      <guid>/python/list_packages/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
 import SoftLayer
 from pprint import pprint as pp
@@ -1516,10 +1516,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Order a vyatta server with placeOrder</title>
-      <link>https://softlayer.github.io/php/order_vyatta/</link>
+      <link>/php/order_vyatta/</link>
       <pubDate>Wed, 08 Jul 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/order_vyatta/</guid>
+      <guid>/php/order_vyatta/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
 
 require_once &#39;./SoftLayer/SoapClient.class.php&#39;;
@@ -1583,10 +1583,10 @@ print_r($result);
     
     <item>
       <title>Upgrade virtual guest</title>
-      <link>https://softlayer.github.io/php/upgrade_virtual_guest/</link>
+      <link>/php/upgrade_virtual_guest/</link>
       <pubDate>Sun, 15 Feb 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/upgrade_virtual_guest/</guid>
+      <guid>/php/upgrade_virtual_guest/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
 require_once &#39;./SoftLayer/XmlrpcClient.class.php&#39;;
 
@@ -1634,10 +1634,10 @@ print_r($response);
     
     <item>
       <title>Create a virtual server from an existing image template</title>
-      <link>https://softlayer.github.io/python/create_server_from_template/</link>
+      <link>/python/create_server_from_template/</link>
       <pubDate>Mon, 01 Sep 2014 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/create_server_from_template/</guid>
+      <guid>/python/create_server_from_template/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Account/getPrivateBlockDeviceTemplateGroups&#34;&gt;getPrivateBlockDeviceTemplateGroups&lt;/a&gt; will return a list of all the templates that you have created on your account. Use this method to find the id of the template you want to create a server from.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import SoftLayer
@@ -1690,10 +1690,10 @@ pp(result)
     
     <item>
       <title>Required price IDs for package</title>
-      <link>https://softlayer.github.io/php/get_required_price_id/</link>
+      <link>/php/get_required_price_id/</link>
       <pubDate>Mon, 01 Sep 2014 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/get_required_price_id/</guid>
+      <guid>/php/get_required_price_id/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
 
 /* follow the installation instructions to get SoftLayer API PHP Client working: https://github.com/softlayer/softlayer-api-php-client#installation */
@@ -1756,10 +1756,10 @@ try {
     
     <item>
       <title>Required price IDs for package</title>
-      <link>https://softlayer.github.io/python/get_required_price_id/</link>
+      <link>/python/get_required_price_id/</link>
       <pubDate>Mon, 01 Sep 2014 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/get_required_price_id/</guid>
+      <guid>/python/get_required_price_id/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import SoftLayer
 package = 46
 

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Virtual_guest on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/classes/virtual_guest/</link>
+    <link>/classes/virtual_guest/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Calculating month-to-date cost of a Virtual_Guest</title>
-      <link>https://softlayer.github.io/ruby/monthtodate/</link>
+      <link>/ruby/monthtodate/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/ruby/monthtodate/</guid>
+      <guid>/ruby/monthtodate/</guid>
       <description>
 
 &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;require &#39;softlayer_api&#39; # Requires softlayer_api &amp;gt;= 3.2

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Tools on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/tags/tools/</link>
+    <link>/tags/tools/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,19 +10,19 @@
     
     <item>
       <title>Tools</title>
-      <link>https://softlayer.github.io/tools/</link>
+      <link>/tools/</link>
       <pubDate>Wed, 16 Sep 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/tools/</guid>
+      <guid>/tools/</guid>
       <description>
 
-&lt;h3 id=&#34;ansible-ansible:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;https://softlayer.github.io/ansible/&#34;&gt;Ansible&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;ansible-ansible:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;/ansible/&#34;&gt;Ansible&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;Ansible offers an agentless way to administer your servers and is a great way to quickly make changes across your infrastructure.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;vagrant-vagrant:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;https://softlayer.github.io/vagrant/&#34;&gt;Vagrant&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;vagrant-vagrant:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;/vagrant/&#34;&gt;Vagrant&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;Vagrant allows for development environments to be configured in consistent ways and can provision SoftLayer servers as part of the environment creation process.&lt;/p&gt;
 
@@ -45,7 +45,7 @@
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;fog-softlayer-fog:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;https://softlayer.github.io/fog/&#34;&gt;Fog-Softlayer&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;fog-softlayer-fog:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;&lt;a href=&#34;/fog/&#34;&gt;Fog-Softlayer&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;A module for the &amp;lsquo;fog&amp;rsquo; gem to support SoftLayer. This gem is a module for the fog gem that allows you to manage resources in the SoftLayer Cloud. It is included by the main fog metagem but can used as an independent library in other applications.&lt;/p&gt;
 

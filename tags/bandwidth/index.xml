@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Bandwidth on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/tags/bandwidth/</link>
+    <link>/tags/bandwidth/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Server Bandwidth</title>
-      <link>https://softlayer.github.io/python/get_bandwidth_data/</link>
+      <link>/python/get_bandwidth_data/</link>
       <pubDate>Mon, 15 Jun 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/get_bandwidth_data/</guid>
+      <guid>/python/get_bandwidth_data/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import SoftLayer
 import pprint
 

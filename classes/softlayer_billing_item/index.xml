@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Softlayer_billing_item on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/classes/softlayer_billing_item/</link>
+    <link>/classes/softlayer_billing_item/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Cancel an item or service</title>
-      <link>https://softlayer.github.io/python/cancel_service/</link>
+      <link>/python/cancel_service/</link>
       <pubDate>Mon, 08 Feb 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/cancel_service/</guid>
+      <guid>/python/cancel_service/</guid>
       <description>&lt;p&gt;In the following example we are retrieving the Billing Item of a Virtual Guest with the ID of 12345678 and passing that ID to &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Billing_Item/cancelService&#34;&gt;cancelService&lt;/a&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
@@ -31,10 +31,10 @@ cancelItem = client[&#39;SoftLayer_Billing_Item&#39;].cancelService(id = billing
     
     <item>
       <title>Cancel an item or service</title>
-      <link>https://softlayer.github.io/php/cancelservice/</link>
+      <link>/php/cancelservice/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/cancelservice/</guid>
+      <guid>/php/cancelservice/</guid>
       <description>&lt;p&gt;In order to cancel an item or service you must know the billing item ID. In the following example we are retrieving the billing item ID for our Virtual Guest with ID &amp;lsquo;15690533&amp;rsquo;:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;&amp;lt;?php
@@ -83,10 +83,10 @@ try {
     
     <item>
       <title>Cancel an item or service</title>
-      <link>https://softlayer.github.io/ruby/cancelservice/</link>
+      <link>/ruby/cancelservice/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/ruby/cancelservice/</guid>
+      <guid>/ruby/cancelservice/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;require &#39;softlayer_api&#39; # Requires softlayer_api &amp;gt;= 3.2
 require &#39;pp&#39; # used to display results
 
@@ -114,10 +114,10 @@ if item and item[&#39;billingItem&#39;] and client[:Billing_Item].object_with_id
     
     <item>
       <title>Associate a Billing ID with the service or item it corresponds to in the SoftLayer catalog</title>
-      <link>https://softlayer.github.io/perl/getassociatedid/</link>
+      <link>/perl/getassociatedid/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/perl/getassociatedid/</guid>
+      <guid>/perl/getassociatedid/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;# https://api.softlayer.com/rest/v3/SoftLayer_Billing_Item/1234321/getAssociatedBillingItem
 my $objectMask = {
    &#39;id&#39; =&amp;gt;&#39;&#39;
@@ -132,10 +132,10 @@ print Dumper($result-&amp;gt;result);
     
     <item>
       <title>Cancel item</title>
-      <link>https://softlayer.github.io/perl/cancelitem/</link>
+      <link>/perl/cancelitem/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/perl/cancelitem/</guid>
+      <guid>/perl/cancelitem/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-perl&#34;&gt;#!/usr/bin/perl
 use lib &amp;quot;/path/to/softlayer-api-perl-client/&amp;quot;;
 use SoftLayer::API::SOAP;
@@ -156,10 +156,10 @@ print Dumper($result-&amp;gt;result);
     
     <item>
       <title>Cancel an item or service</title>
-      <link>https://softlayer.github.io/rest/cancel_service/</link>
+      <link>/rest/cancel_service/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/cancel_service/</guid>
+      <guid>/rest/cancel_service/</guid>
       <description>
 
 &lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
@@ -186,10 +186,10 @@ print Dumper($result-&amp;gt;result);
     
     <item>
       <title>Find provisioned product from a billing item</title>
-      <link>https://softlayer.github.io/rest/find_product_from_billing/</link>
+      <link>/rest/find_product_from_billing/</link>
       <pubDate>Wed, 30 Dec 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/rest/find_product_from_billing/</guid>
+      <guid>/rest/find_product_from_billing/</guid>
       <description>&lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Method: &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Billing_Item/getAssociatedParent&#34;&gt;&lt;code&gt;SoftLayer_Billing_Item::getAssociatedParent()&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;

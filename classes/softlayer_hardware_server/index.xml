@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Softlayer_hardware_server on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/classes/softlayer_hardware_server/</link>
+    <link>/classes/softlayer_hardware_server/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Upgrade Hardware and Virtual Servers</title>
-      <link>https://softlayer.github.io/python/upgrade_examples/</link>
+      <link>/python/upgrade_examples/</link>
       <pubDate>Tue, 22 Mar 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/upgrade_examples/</guid>
+      <guid>/python/upgrade_examples/</guid>
       <description>&lt;pre&gt;&lt;code&gt;import SoftLayer
 from pprint import pprint as pp
 
@@ -143,10 +143,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Update Firmware on a Bare Metal Server</title>
-      <link>https://softlayer.github.io/python/update_firmware/</link>
+      <link>/python/update_firmware/</link>
       <pubDate>Thu, 03 Mar 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/update_firmware/</guid>
+      <guid>/python/update_firmware/</guid>
       <description>&lt;p&gt;In the following example we are updating the firmware for the IPMI, BIOS, Hard Drives, and Raid Controller on our Bare Metal Server with ID 12345. We can toggle the specific items we want updated by setting the values to False (Do not update firmware) or True (Do update firmware).&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
@@ -161,10 +161,10 @@ result = mgr.update_firmware(hardware_id=12345,ipmi=True,raid_controller=True,bi
     
     <item>
       <title>Reload with SSH keys</title>
-      <link>https://softlayer.github.io/python/reload_hardware/</link>
+      <link>/python/reload_hardware/</link>
       <pubDate>Thu, 28 Jan 2016 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/reload_hardware/</guid>
+      <guid>/python/reload_hardware/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import SoftLayer
 from pprint import pprint as pp
 
@@ -204,10 +204,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Server Bandwidth</title>
-      <link>https://softlayer.github.io/python/get_bandwidth_data/</link>
+      <link>/python/get_bandwidth_data/</link>
       <pubDate>Mon, 15 Jun 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/get_bandwidth_data/</guid>
+      <guid>/python/get_bandwidth_data/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import SoftLayer
 import pprint
 
@@ -249,10 +249,10 @@ if __name__ == &amp;quot;__main__&amp;quot;:
     
     <item>
       <title>Set a server&#39;s metadata</title>
-      <link>https://softlayer.github.io/python/set_user_metadata/</link>
+      <link>/python/set_user_metadata/</link>
       <pubDate>Mon, 23 Mar 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/set_user_metadata/</guid>
+      <guid>/python/set_user_metadata/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import SoftLayer
 from pprint import pprint as pp
 
@@ -276,10 +276,10 @@ pp(result2)
     
     <item>
       <title>Retrieve metric data for a single server.</title>
-      <link>https://softlayer.github.io/php/get_monitoring_metrics/</link>
+      <link>/php/get_monitoring_metrics/</link>
       <pubDate>Mon, 01 Sep 2014 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/php/get_monitoring_metrics/</guid>
+      <guid>/php/get_monitoring_metrics/</guid>
       <description>&lt;p&gt;We will call the SoftLayer API to retrieve the monitoring agents,
  configuration template, and configuration values for a server instance.
  Then we will demonstrate how to find definitions that you have enabled for

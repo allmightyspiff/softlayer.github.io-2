@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Authentication on SoftLayer API Examples </title>
-    <link>https://softlayer.github.io/tags/authentication/</link>
+    <link>/tags/authentication/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Password Auth</title>
-      <link>https://softlayer.github.io/ruby/token_auth/</link>
+      <link>/ruby/token_auth/</link>
       <pubDate>Sun, 15 Nov 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/ruby/token_auth/</guid>
+      <guid>/ruby/token_auth/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;require &#39;softlayer_api&#39; # Requires softlayer_api &amp;gt;= 3.2
 
 # Create a client
@@ -29,10 +29,10 @@ puts client[&#39;Account&#39;].object_mask(&#39;mask[id, apiAuthenticationKeys]&
     
     <item>
       <title>Password Auth</title>
-      <link>https://softlayer.github.io/python/token_auth/</link>
+      <link>/python/token_auth/</link>
       <pubDate>Tue, 09 Jun 2015 00:00:00 UTC</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>https://softlayer.github.io/python/token_auth/</guid>
+      <guid>/python/token_auth/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import SoftLayer
 client = SoftLayer.Client()
 client.authenticate_with_password(&amp;quot;username&amp;quot;, &amp;quot;password&amp;quot;)
