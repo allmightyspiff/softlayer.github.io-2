@@ -6,7 +6,37 @@
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
-    <updated>Mon, 11 Jul 2016 00:00:00 UTC</updated>
+    <updated>Mon, 18 Jul 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Release notes: July 18, 2016</title>
+      <link>/release_notes/20160718/</link>
+      <pubDate>Mon, 18 Jul 2016 00:00:00 UTC</pubDate>
+      <author>Enthusiastic Hugo User</author>
+      <guid>/release_notes/20160718/</guid>
+      <description>
+
+&lt;h4 id=&#34;portal:cf001f820150540119512f6ac6ceb400&#34;&gt;Portal&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed a bug that caused Public node to be highlighted when ordering a Private Virtual Guest.&lt;/li&gt;
+&lt;li&gt;Fixes an issue that prevented the relevant media types from being returned in the ContentDelivery code for CDN origin mapping.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;api:cf001f820150540119512f6ac6ceb400&#34;&gt;API&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Resolved an issue with the &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Software_AccountLicense/getAllObjects&#34;&gt;getAllObjects&lt;/a&gt; method for the &lt;a href=&#34;http://sldn.softlayer.com/reference/services/SoftLayer_Software_AccountLicense&#34;&gt;SoftLayer_Software_AccountLicense&lt;/a&gt; service returning an internal error.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;backend:cf001f820150540119512f6ac6ceb400&#34;&gt;Backend&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed an issue creating an IBMid with a mixed-case email address. Introduced case insensitivity in email address handling for IBMid creation.&lt;/li&gt;
+&lt;li&gt;Introduced code that adds Network Gateway Capability to all Current Bare Metal Packages&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Release notes: July 11, 2016</title>
@@ -497,52 +527,6 @@ URL: SoftLayer_Product_Order/placeOrder&lt;/p&gt;
 &lt;p&gt;Example CURL:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;curl -H &amp;quot;Content-Type: application/json&amp;quot; --data @createpool.json &amp;quot;https://$SOFTLAYER_USERNAME:$SOFTLAYER_API_KEY@api.softlayer.com/rest/v3/SoftLayer_Network_Bandwidth_Version1_Allotment/createObject&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Create a new Bandwidth Pool</title>
-      <link>/python/createBWpool/</link>
-      <pubDate>Fri, 29 Apr 2016 00:00:00 UTC</pubDate>
-      <author>Enthusiastic Hugo User</author>
-      <guid>/python/createBWpool/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;
-import SoftLayer
-# For nice debug output:
-from pprint import pprint as pp
-
-
-# Set the needed values to create a new item
-accountId = 111111
-
-# The values for bandwidthAllotmentTypeId are: (1) and (2)
-# where: (1) means this allotment is marked as a virtual private rack or
-#        (2) bandwidth pooling
-bandwidthAllotmentTypeId = 2
-
-# To get locationGroupId, execute: SoftLayer_Location_Group::getAllObjects
-locationGroupId = 1
-newBandwithPoolName = &#39;newBWpool&#39;
-
-# Create an object template to create the item.
-objectTemplate = {
-    &#39;accountId&#39;: accountId,
-    &#39;bandwidthAllotmentTypeId&#39;: bandwidthAllotmentTypeId,
-    &#39;locationGroupId&#39;: locationGroupId,
-    &#39;name&#39;: newBandwithPoolName
-}
-
-# Creates a new connection to the API service.
-client = SoftLayer.Client()
-
-try:
-    result = client[&#39;SoftLayer_Network_Bandwidth_Version1_Allotment&#39;].createObject(objectTemplate)
-    pp(result)
-
-except SoftLayer.SoftLayerAPIError as e:
-    pp(&#39;Failed ... Unable to create a new Bandwidth Pool  faultCode=%s, faultString=%s&#39;
-        % (e.faultCode, e.faultString))
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
