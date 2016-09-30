@@ -95,7 +95,7 @@
 			
 				<div class="well well-sm release-note example col-md-12">
     <h3>
-        <a href="/release_notes/20160718/"> July 18, 2016</a>
+        <a href="/release_notes/20160828/"> August 28, 2016</a>
         <br>
     </h3>
     <div class="container">
@@ -103,24 +103,24 @@
             <div class="col-md-8">
                 
 
-<h4 id="portal:cf001f820150540119512f6ac6ceb400">Portal</h4>
+<h4 id="portal:b9d5ea7172071ff57acc312ad34716d7">Portal</h4>
 
 <ul>
-<li>Fixed a bug that caused Public node to be highlighted when ordering a Private Virtual Guest.</li>
-<li>Fixes an issue that prevented the relevant media types from being returned in the ContentDelivery code for CDN origin mapping.</li>
+<li>Pushed code fix that filters Vlans with respect to Datacenter selected when ordering Dedicated firewall.</li>
+<li>Pushed code fix that filters the severs based on Datacenter selected and the price capacity when ordering hardware firewall.</li>
+<li>Resolved an issue what was causing storage group templates with JBODs to not load correctly in the order forms.</li>
 </ul>
 
-<h4 id="api:cf001f820150540119512f6ac6ceb400">API</h4>
+<h4 id="api:b9d5ea7172071ff57acc312ad34716d7">API</h4>
 
 <ul>
-<li>Resolved an issue with the <a href="http://sldn.softlayer.com/reference/services/SoftLayer_Software_AccountLicense/getAllObjects">getAllObjects</a> method for the <a href="http://sldn.softlayer.com/reference/services/SoftLayer_Software_AccountLicense">SoftLayer_Software_AccountLicense</a> service returning an internal error.</li>
+<li>Resolved a bug that was causing the <a href="http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/getMemoryMetricImageByDate">SoftLayer_Virtual_Guest::getMemoryMetricImageByDate</a> method to return an incorrect graph.</li>
 </ul>
 
-<h4 id="backend:cf001f820150540119512f6ac6ceb400">Backend</h4>
+<h4 id="backend:b9d5ea7172071ff57acc312ad34716d7">Backend</h4>
 
 <ul>
-<li>Fixed an issue creating an IBMid with a mixed-case email address. Introduced case insensitivity in email address handling for IBMid creation.</li>
-<li>Introduced code that adds Network Gateway Capability to all Current Bare Metal Packages</li>
+<li>None</li>
 </ul>
  
             </div>
@@ -134,7 +134,7 @@
 			
 				<div class="well well-sm release-note example col-md-12">
     <h3>
-        <a href="/release_notes/20160711/"> July 11, 2016</a>
+        <a href="/release_notes/20160822/"> August 22, 2016</a>
         <br>
     </h3>
     <div class="container">
@@ -142,24 +142,23 @@
             <div class="col-md-8">
                 
 
-<h4 id="portal:f7a7a1634666100008cbbd5dca0ed5ef">Portal</h4>
+<h4 id="portal:471582aafec30b94617a1309436ab245">Portal</h4>
 
 <ul>
 <li>None</li>
 </ul>
 
-<h4 id="api:f7a7a1634666100008cbbd5dca0ed5ef">API</h4>
+<h4 id="api:471582aafec30b94617a1309436ab245">API</h4>
 
 <ul>
 <li>None</li>
 </ul>
 
-<h4 id="backend:f7a7a1634666100008cbbd5dca0ed5ef">Backend</h4>
+<h4 id="backend:471582aafec30b94617a1309436ab245">Backend</h4>
 
 <ul>
-<li>Rolled out the code that would allow customers to attach secondary Portable Storage Volumes to an existing Virtual Guest, create bootable images on those Portable Storage Volumes, detach them, then boot from those created volumes into new Virtual Guest&rsquo;s.</li>
-<li>Resolved an issue that was causing OS Reloads to fail on Bare Metal servers that had inactive or deprecated service offerings.</li>
-<li>Fixed a bug in that caused Microsoft post provision scripts to fail when the script url contained an ampersand &lsquo;&amp;&lsquo;.</li>
+<li>Resolved a bug that was causing Resets of Dedicated Hardware Firewalls to fail if they were in a High Availablity Pair.</li>
+<li>Put code in place to ensure that cached disks from image templates are deleted when parent Virtual Disk Image is deleted.</li>
 </ul>
  
             </div>
@@ -173,7 +172,7 @@
 			
 				<div class="well well-sm release-note example col-md-12">
     <h3>
-        <a href="/release_notes/20160706/"> July 6, 2016</a>
+        <a href="/release_notes/20160815/"> August 15, 2016</a>
         <br>
     </h3>
     <div class="container">
@@ -181,28 +180,23 @@
             <div class="col-md-8">
                 
 
-<h4 id="portal:ecd9ce8d371c9a9e437e3a6c1abee306">Portal</h4>
+<h4 id="portal:9a5cd737d87cc15d69786549a43d9022">Portal</h4>
 
 <ul>
-<li>Fixed an issue that was causing the Subnet selection portion of the order process to be displayed when ordering a Network Gateway.</li>
-<li>Added a UI element to create or associate an IBM ID with an account during the order process.</li>
-<li>When creating new orders customers will be prompted to associate an existing <a href="http://blog.softlayer.com/2016/new-softlayer-accounts-now-ibmid-authentication">IBM ID</a> or create a new one.</li>
+<li>None</li>
 </ul>
 
-<h4 id="api:ecd9ce8d371c9a9e437e3a6c1abee306">API</h4>
+<h4 id="api:9a5cd737d87cc15d69786549a43d9022">API</h4>
 
 <ul>
-<li>Resolved an issue that was causing incorrect results from different parameters on REST/SOAP calls to Bandwidth functions.</li>
-<li>Added the <a href="http://sldn.softlayer.com/reference/services/SoftLayer_User_Customer_OpenIdConnect">SoftLayer_User_Customer_OpenIdConnect</a> service for interacting with SoftLayer accounts that have an associated IBM ID.</li>
-<li>Added some OpenIdConnect functionality to the <a href="http://sldn.softlayer.com/reference/datatypes/SoftLayer_User_Customer">SoftLayer_User_Customer</a> datatype.</li>
+<li>None</li>
 </ul>
 
-<h4 id="backend:ecd9ce8d371c9a9e437e3a6c1abee306">Backend</h4>
+<h4 id="backend:9a5cd737d87cc15d69786549a43d9022">Backend</h4>
 
 <ul>
-<li>Removed the (deprecated) Manage Portal URL from Recurring Invoice Email Notifications.</li>
-<li>Rolled out a feature to give account master users the ability to add account support subscribers which will receive notifications regarding all unplanned incidents, planned maintenances and opened support tickets concerning their account.</li>
-<li>Added the ability to use Two Factor Authentication when the primary authentication for an account is an <a href="http://blog.softlayer.com/2016/new-softlayer-accounts-now-ibmid-authentication">IBM ID</a>.</li>
+<li>Fixed an issue with servers not being immediately pulled from a Bandwidth pool upon cancellation.</li>
+<li>Improvements have been made to prevent static subnets and global IPs from being routed to administratively reserved IP addresses.</li>
 </ul>
  
             </div>
@@ -216,7 +210,7 @@
 			
 				<div class="well well-sm release-note example col-md-12">
     <h3>
-        <a href="/release_notes/20160628/"> June 27, 2016</a>
+        <a href="/release_notes/20160808/"> August 8, 2016</a>
         <br>
     </h3>
     <div class="container">
@@ -224,22 +218,22 @@
             <div class="col-md-8">
                 
 
-<h4 id="portal:cdd70531fefab18e4052a9eac4e6b165">Portal</h4>
+<h4 id="portal:68db69cb3e1be8e3bf4ada9969cd4831">Portal</h4>
 
 <ul>
-<li>Added support to determine if multipath is properly configured for block LUNs.</li>
+<li>Added some additional Language translations to the order forms in the customer portal.</li>
 </ul>
 
-<h4 id="api:cdd70531fefab18e4052a9eac4e6b165">API</h4>
+<h4 id="api:68db69cb3e1be8e3bf4ada9969cd4831">API</h4>
 
 <ul>
 <li>None</li>
 </ul>
 
-<h4 id="backend:cdd70531fefab18e4052a9eac4e6b165">Backend</h4>
+<h4 id="backend:68db69cb3e1be8e3bf4ada9969cd4831">Backend</h4>
 
 <ul>
-<li>Resolved an issue that was causing OS reloads to fail on Virtual Guests during the image copy process.</li>
+<li>Fixed a bug that was causing duplicate IP&rsquo;s to be assigned to network components during Virtual Guest provisions.</li>
 </ul>
  
             </div>
@@ -253,7 +247,7 @@
 			
 				<div class="well well-sm release-note example col-md-12">
     <h3>
-        <a href="/release_notes/20160620/"> June 20, 2016</a>
+        <a href="/release_notes/20160801/"> August 1, 2016</a>
         <br>
     </h3>
     <div class="container">
@@ -261,22 +255,24 @@
             <div class="col-md-8">
                 
 
-<h4 id="portal:a71aac5b592424babcc52df38709a416">Portal</h4>
-
-<ul>
-<li>Enabled the ordering of new, larger CPU/RAM capacity Virtual Guests.</li>
-</ul>
-
-<h4 id="api:a71aac5b592424babcc52df38709a416">API</h4>
-
-<ul>
-<li>Resolved an issue that was causing the <a href="http://sldn.softlayer.com/reference/services/SoftLayer_Metric_Tracking_Object/getBandwidthTotal">SoftLayer_Metric_Tracking_Object::getBandwidthTotal</a> method to fail to properly retrieve bandwidth data.</li>
-</ul>
-
-<h4 id="backend:a71aac5b592424babcc52df38709a416">Backend</h4>
+<h4 id="portal:17c06eb2490fd0b729c7df5d753fba18">Portal</h4>
 
 <ul>
 <li>None</li>
+</ul>
+
+<h4 id="api:17c06eb2490fd0b729c7df5d753fba18">API</h4>
+
+<ul>
+<li>None</li>
+</ul>
+
+<h4 id="backend:17c06eb2490fd0b729c7df5d753fba18">Backend</h4>
+
+<ul>
+<li>Resolved an issue with initial IPv6 routing for new subnet orders.</li>
+<li>Fixed a bug that was causing Evault for Virtual Guests to create unassociated billing items.</li>
+<li>Resolved an issue that was preventing SSH keys from being properly applied during an OS Reload. This only occurred if new software was added during the reload.</li>
 </ul>
  
             </div>
@@ -375,12 +371,18 @@
         ><a href="/page/13/">13</a></li>
         
         <li
+        ><a href="/page/14/">14</a></li>
+        
+        <li
+        ><a href="/page/15/">15</a></li>
+        
+        <li
         >
         <a href="/page/2/" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
         </li>
         
         <li>
-            <a href="/page/13/" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+            <a href="/page/15/" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
         </li>
         
     </ul>

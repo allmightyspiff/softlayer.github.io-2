@@ -6,7 +6,170 @@
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
-    <updated>Tue, 22 Mar 2016 00:00:00 UTC</updated>
+    <updated>Thu, 01 Sep 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Create a new virtual server with all options</title>
+      <link>/php/createVsi/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 UTC</pubDate>
+      <author>Enthusiastic Hugo User</author>
+      <guid>/php/createVsi/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
+
+/* You can use the getenv() module to pull your exported Username
+and API key to keep from having to store them in your files */
+
+require_once &#39;./vendor/autoload.php&#39;;
+$apiUsername = getenv(&#39;SOFTLAYER_USERNAME&#39;);
+$apiKey = getenv(&#39;SOFTLAYER_API_KEY&#39;);
+
+$template = new stdClass();
+$template-&amp;gt;location = 1441195;
+$template-&amp;gt;datacenter-&amp;gt;name = &#39;dal10&#39;;
+$template-&amp;gt;domain = &#39;example.com&#39;;
+$template-&amp;gt;startCpus = 2;
+$template-&amp;gt;maxMemory = 2048;
+$template-&amp;gt;operatingSystemReferenceCode = &#39;CENTOS_6_64&#39;;
+$template-&amp;gt;hostname = &#39;testphp&#39;;
+$template-&amp;gt;localDiskFlag = True;
+$template-&amp;gt;hourlyBillingFlag = True;
+$template-&amp;gt;dedicatedAccountHostOnlyFlag = False;
+$template-&amp;gt;primaryBackendNetworkComponent = 1286783;
+$template-&amp;gt;primaryNetworkComponent = 1286781;
+$template-&amp;gt;privateNetworkOnlyFlag = False;
+
+try {
+  $client = \SoftLayer\SoapClient::getClient(&#39;SoftLayer_Virtual_Guest&#39;,null, $apiUsername, $apiKey);
+  $response = $client-&amp;gt;createObject($template);
+
+  print_r($response);
+
+ } catch(Exception $e) {
+     echo &#39;Cannot compute. Error is: &#39; . $e-&amp;gt;getMessage();
+}
+
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Create a new virtual server with all options</title>
+      <link>/ruby/createVSI/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 UTC</pubDate>
+      <author>Enthusiastic Hugo User</author>
+      <guid>/ruby/createVSI/</guid>
+      <description>&lt;p&gt;When you are ready to place the order change &lt;code&gt;verifyOrder(productOrder)&lt;/code&gt; to &lt;code&gt;placeOrder(productOrder)&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;
+require &#39;softlayer_api&#39;
+require &#39;pp&#39;
+
+client = SoftLayer::Client.new(:timeout =&amp;gt; 120)
+
+productOrder = {
+  &#39;virtualGuests&#39; =&amp;gt; [{
+     &#39;hostname&#39; =&amp;gt; &#39;testRuby&#39;,
+     &#39;domain&#39;   =&amp;gt; &#39;example.com&#39;,
+     &#39;primaryBackendNetworkComponent&#39; =&amp;gt; { &#39;networkVlan&#39; =&amp;gt; { &#39;id&#39; =&amp;gt; 1286783 } }
+  }],
+  &#39;location&#39; =&amp;gt; 1441195,
+  &#39;packageId&#39; =&amp;gt; 46,
+  &#39;operatingSystemReferenceCode&#39; =&amp;gt; &#39;CENTOS_6_64&#39;, 
+  &#39;useHourlyPricing&#39; =&amp;gt; false,
+  &#39;prices&#39; =&amp;gt; [
+     {&#39;id&#39; =&amp;gt; 1640 }, # 1 x 2.0 GHz Core
+     {&#39;id&#39; =&amp;gt; 1644 }, # 1 GB RAM
+     {&#39;id&#39; =&amp;gt; 13945 }, # CENTOS_6_64
+     {&#39;id&#39; =&amp;gt; 1639 }, # 100 GB (SAN) First Disk
+     {&#39;id&#39; =&amp;gt; 2277 }, # 100 GB (SAN) Second Disk
+     {&#39;id&#39; =&amp;gt; 50367 }, # 250 GB Bandwidth
+     {&#39;id&#39; =&amp;gt; 274 }, # 1 Gbps Public &amp;amp; Private Network Uplinks
+     {&#39;id&#39; =&amp;gt; 21 }, # 1 IP Address
+     {&#39;id&#39; =&amp;gt; 420 }, # Unlimited SSL VPN Users &amp;amp; 1 PPTP VPN User per account
+     {&#39;id&#39; =&amp;gt; 56 }, # Host Ping and TCP Service Monitoring
+     {&#39;id&#39; =&amp;gt; 57 }, # Email and Ticket
+     {&#39;id&#39; =&amp;gt; 418 }, # NESSUS_VULNERABILITY_ASSESSMENT_REPORTING
+     {&#39;id&#39; =&amp;gt; 905 }, # REBOOT_REMOTE_CONSOLE
+     {&#39;id&#39; =&amp;gt; 58 }  # AUTOMATED_NOTIFICATION
+  ]
+}
+
+order = client[&#39;Product_Order&#39;].verifyOrder(productOrder)
+
+pp order
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Attach and Detach a Block Device to a Virtual_Guest</title>
+      <link>/php/attach_detach/</link>
+      <pubDate>Mon, 22 Aug 2016 00:00:00 UTC</pubDate>
+      <author>Enthusiastic Hugo User</author>
+      <guid>/php/attach_detach/</guid>
+      <description>&lt;p&gt;Attaching a currently detached portable block device to a given guest. The disk image will need to be migrated to the host the guest is on, so make sure to check if that host has enough disk space (with checkHostDiskAvailability) before attaching. This is only required for guests with local storage guests. SAN based guests don&amp;rsquo;t need that step.&lt;/p&gt;
+
+&lt;p&gt;Running this on a disk that is already attached will move the disk to the new guest.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
+
+/* You can use the getenv() module to pull your exported Username
+and API key to keep from having to store them in your files */
+
+require_once &#39;./vendor/autoload.php&#39;;
+$apiUsername = getenv(&#39;SOFTLAYER_USERNAME&#39;);
+$apiKey = getenv(&#39;SOFTLAYER_API_KEY&#39;);
+$guest_id = 22983449;
+$storage_id = 20309395;
+
+
+try {
+  $client = \SoftLayer\SoapClient::getClient(&#39;SoftLayer_Virtual_Guest&#39;, $guest_id, $apiUsername, $apiKey);
+  $response = $client-&amp;gt;attachDiskImage($storage_id);
+
+  print_r($response);
+
+ } catch(Exception $e) {
+     echo &#39;Cannot compute. Error is: &#39; . $e-&amp;gt;getMessage();
+}
+
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To detach the disk simply change &lt;code&gt;$client-&amp;gt;attachDiskImage($storage_id)&lt;/code&gt; to &lt;code&gt;$client-&amp;gt;detachDiskImage($storage_id)&lt;/code&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Attach and Detach a Block Device to a Virtual_Guest</title>
+      <link>/ruby/attach_detach/</link>
+      <pubDate>Mon, 22 Aug 2016 00:00:00 UTC</pubDate>
+      <author>Enthusiastic Hugo User</author>
+      <guid>/ruby/attach_detach/</guid>
+      <description>&lt;p&gt;Attaching a currently detached portable block device to a given guest. The disk image will need to be migrated to the host the guest is on, so make sure to check if that host has enough disk space (with checkHostDiskAvailability) before attaching. This is only required for guests with local storage guests. SAN based guests don&amp;rsquo;t need that step.&lt;/p&gt;
+
+&lt;p&gt;Running this on a disk that is already attached will move the disk to the new guest.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;require &#39;softlayer_api&#39;
+require &#39;pp&#39;
+
+# Credentials to the API are read from a configuration file by default.
+# See https://github.com/softlayer/softlayer-ruby/blob/master/lib/softlayer/Config.rb#L11-L44
+client = SoftLayer::Client.new(:timeout =&amp;gt; 120)
+disk_id = 87654321
+guest_id = 1234567
+
+attach = client[&#39;SoftLayer_Virtual_Guest&#39;]
+item = attach.object_with_id(guest_id).attachDiskImage(disk_id)
+
+pp item
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To detach the disk simply change &lt;code&gt;attachDiskImage(disk_id)&lt;/code&gt; to &lt;code&gt;detachDiskImage(disk_id)&lt;/code&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Upgrade Hardware and Virtual Servers</title>
@@ -659,160 +822,6 @@ https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest.json?objectMask=mask.i
 &lt;p&gt;Example Response:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{&amp;quot;id&amp;quot;:7742740}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Get virtual server details</title>
-      <link>/rest/get_virtual_server_details/</link>
-      <pubDate>Sun, 15 Feb 2015 00:00:00 UTC</pubDate>
-      <author>Enthusiastic Hugo User</author>
-      <guid>/rest/get_virtual_server_details/</guid>
-      <description>&lt;p&gt;Operation: &lt;code&gt;GET&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;URL: &lt;code&gt;SoftLayer_Virtual_Guest/{server_id}&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Example CURL:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;curl --user userid:api_key
-&amp;quot;https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/
-7743084.json?objectMask=mask[domain,fullyQualifiedDomainName,hostname,id,primaryBack
-endIpAddress,primaryIpAddress,status.keyName]&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Example Response:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
-    &amp;quot;domain&amp;quot;:&amp;quot;lab01.softlayer.ws&amp;quot;,
-    &amp;quot;fullyQualifiedDomainName&amp;quot;:&amp;quot;test03.lab01.softlayer.ws&amp;quot;,
-    &amp;quot;hostname&amp;quot;:&amp;quot;test03&amp;quot;,
-    &amp;quot;id&amp;quot;:7743084,
-    &amp;quot;primaryBackendIpAddress&amp;quot;:&amp;quot;10.118.68.8&amp;quot;,
-    &amp;quot;primaryIpAddress&amp;quot;:&amp;quot;168.1.79.8&amp;quot;,
-    &amp;quot;status&amp;quot;:{
-        &amp;quot;keyName&amp;quot;:&amp;quot;ACTIVE&amp;quot;,
-        &amp;quot;name&amp;quot;:&amp;quot;Active&amp;quot;
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Get primary ip address record</title>
-      <link>/php/primary_ip_address_record/</link>
-      <pubDate>Sat, 03 Jan 2015 00:00:00 UTC</pubDate>
-      <author>Enthusiastic Hugo User</author>
-      <guid>/php/primary_ip_address_record/</guid>
-      <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
-require_once &#39;./SoftLayer/SoapClient.class.php&#39;;
-
-$apiUsername = &#39;&#39;;
-$apiKey = &#39;&#39;;
-$virtualGuestId = 1111111
-$client = SoftLayer_SoapClient::getClient(&#39;SoftLayer_Virtual_Guest&#39;,   $virtualGuestId, $apiUsername, $apiKey);
-
-
-$objectMask = new SoftLayer_ObjectMask();
-$objectMask-&amp;gt;primaryNetworkComponent;
-$objectMask-&amp;gt;primaryNetworkComponent-&amp;gt;primaryIpAddressRecord;
-
-$client-&amp;gt;setObjectMask($objectMask);
-$guest = $client-&amp;gt;getObject();
-print_r($guest);
-
-
-
-/*
-=============== RESULT ===============
-~/Code/softlayer-examples/testing/php  $ php getIpID.php
-stdClass Object
-(
-    [accountId] =&amp;gt; 307608
-    [createDate] =&amp;gt; 2015-06-12T15:37:58-06:00
-    [dedicatedAccountHostOnlyFlag] =&amp;gt;
-    [domain] =&amp;gt; test.lablayer.info
-    [fullyQualifiedDomainName] =&amp;gt; salttest.test.lablayer.info
-    [hostname] =&amp;gt; salttest
-    [id] =&amp;gt; 10015277
-    [lastPowerStateId] =&amp;gt;
-    [lastVerifiedDate] =&amp;gt;
-    [maxCpu] =&amp;gt; 1
-    [maxCpuUnits] =&amp;gt; CORE
-    [maxMemory] =&amp;gt; 1024
-    [metricPollDate] =&amp;gt;
-    [modifyDate] =&amp;gt; 2015-06-12T16:12:52-06:00
-    [provisionDate] =&amp;gt; 2015-06-12T15:42:03-06:00
-    [startCpus] =&amp;gt; 1
-    [statusId] =&amp;gt; 1001
-    [uuid] =&amp;gt; 7a9731a1-4c29-144b-8051-55507ff1f08b
-    [globalIdentifier] =&amp;gt; 8f5ed47b-9864-418b-8966-e9d4a70742f8
-    [managedResourceFlag] =&amp;gt;
-    [primaryBackendIpAddress] =&amp;gt; 10.91.155.168
-    [primaryIpAddress] =&amp;gt; 198.23.82.198
-    [primaryNetworkComponent] =&amp;gt; stdClass Object
-        (
-            [createDate] =&amp;gt; 2015-06-12T15:38:26-06:00
-            [guestId] =&amp;gt; 10015277
-            [id] =&amp;gt; 5277729
-            [macAddress] =&amp;gt; 06:51:99:7e:f9:ef
-            [maxSpeed] =&amp;gt; 10
-            [modifyDate] =&amp;gt; 2015-06-12T15:38:39-06:00
-            [name] =&amp;gt; eth
-            [networkId] =&amp;gt; 4043239
-            [port] =&amp;gt; 1
-            [speed] =&amp;gt; 10
-            [status] =&amp;gt; ACTIVE
-            [uuid] =&amp;gt; 61836774-e776-d480-75e5-bc45b74982c7
-            [primaryIpAddress] =&amp;gt; 198.23.82.198
-            [primaryIpAddressRecord] =&amp;gt; stdClass Object
-                (
-                    [id] =&amp;gt; 13751854
-                    [ipAddress] =&amp;gt; 198.23.82.198
-                    [isBroadcast] =&amp;gt;
-                    [isGateway] =&amp;gt;
-                    [isNetwork] =&amp;gt;
-                    [isReserved] =&amp;gt;
-                    [subnetId] =&amp;gt; 469930
-                    [guestNetworkComponentBinding] =&amp;gt; stdClass Object
-                        (
-                            [ipAddressId] =&amp;gt; 13751854
-                            [port] =&amp;gt;
-                            [type] =&amp;gt; PRIMARY
-                        )
-
-                    [subnet] =&amp;gt; stdClass Object
-                        (
-                            [broadcastAddress] =&amp;gt; 198.23.82.199
-                            [cidr] =&amp;gt; 29
-                            [gateway] =&amp;gt; 198.23.82.193
-                            [id] =&amp;gt; 469930
-                            [isCustomerOwned] =&amp;gt;
-                            [isCustomerRoutable] =&amp;gt;
-                            [modifyDate] =&amp;gt; 2015-04-18T19:15:55-06:00
-                            [netmask] =&amp;gt; 255.255.255.248
-                            [networkIdentifier] =&amp;gt; 198.23.82.192
-                            [networkVlanId] =&amp;gt; 359732
-                            [sortOrder] =&amp;gt; 4
-                            [subnetType] =&amp;gt; PRIMARY
-                            [totalIpAddresses] =&amp;gt; 8
-                            [usableIpAddressCount] =&amp;gt; 5
-                            [version] =&amp;gt; 4
-                        )
-
-                )
-
-        )
-
-    [status] =&amp;gt; stdClass Object
-        (
-            [keyName] =&amp;gt; ACTIVE
-            [name] =&amp;gt; Active
-        )
-
-)
-*/
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>

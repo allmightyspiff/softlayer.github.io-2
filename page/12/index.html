@@ -95,7 +95,7 @@
 			
 				<div class="well well-sm release-note example col-md-12">
     <h3>
-        <a href="/release_notes/20150914/"> September 14, 2015</a>
+        <a href="/release_notes/20150930/"> September 30, 2015</a>
         <br>
     </h3>
     <div class="container">
@@ -103,10 +103,13 @@
             <div class="col-md-8">
                 
 
-<h4 id="api:bbf198b3f4d5c77bacf638241ae04177">API</h4>
+<h4 id="portal:4c2255d69b6a8672f4c775f603d9c693">Portal</h4>
+
+<h4 id="api:4c2255d69b6a8672f4c775f603d9c693">API</h4>
 
 <ul>
-<li>Improved resiliency of monitoring robot provisioning</li>
+<li>Invalid characters are now being removed from ARIN/RIPE/APNIC registrations</li>
+<li>Engendered network address translation context awareness in VLAN verification actions.</li>
 </ul>
  
             </div>
@@ -120,7 +123,7 @@
 			
 				<div class="well well-sm release-note example col-md-12">
     <h3>
-        <a href="/release_notes/20150910/"> September 10, 2015</a>
+        <a href="/release_notes/20150929/"> September 29, 2015</a>
         <br>
     </h3>
     <div class="container">
@@ -128,19 +131,10 @@
             <div class="col-md-8">
                 
 
-<h4 id="portal:0b8f48ee9f865f591b08d2fce7b8150f">Portal</h4>
+<h4 id="api:ddf4927dc473e83547b273fb901b7121">API</h4>
 
 <ul>
-<li>Properly display an error when setting a tag of greater than 128 characters.</li>
-</ul>
-
-<h4 id="api:0b8f48ee9f865f591b08d2fce7b8150f">API</h4>
-
-<ul>
-<li>Fixed an issue with monitoring email subscriber changes not taking immediate effect.</li>
-<li>Fix a regression in which the Account.privateSubnets and Account.publicSubnets properties were not able to be filtered.</li>
-<li>Performance/Endurance storage provisioning improvements</li>
-<li>Improved provisioning time of monitoring robots</li>
+<li>Adds account creation source record to brand master accounts created during the brand creation process preventing failures during account creation</li>
 </ul>
  
             </div>
@@ -154,7 +148,7 @@
 			
 				<div class="well well-sm release-note example col-md-12">
     <h3>
-        <a href="/release_notes/20150902/"> September 2, 2015</a>
+        <a href="/release_notes/20150928/"> September 28, 2015</a>
         <br>
     </h3>
     <div class="container">
@@ -162,17 +156,19 @@
             <div class="col-md-8">
                 
 
-<h4 id="portal:be77e81a5b14ed91114c2eb6d08092fd">Portal</h4>
+<h4 id="portal:86f88c52a28c45ba4ef0eb285b7bc952">Portal</h4>
 
 <ul>
-<li>Correct Display Inconsistencies for Flexible Credit Participants</li>
+<li>Correcting ability for Agents to Escalate a Ticket to SoftLayer Sales Group</li>
+<li>Fixed a minor storage view error</li>
+<li>The validator was previous incorrectly kicking out firewall orders for servers which have the private VLAN as an inside VLAN but not the public VLAN. This has been fixed and the validator should now allow those orders to go through.</li>
 </ul>
 
-<h4 id="api:be77e81a5b14ed91114c2eb6d08092fd">API</h4>
+<h4 id="api:86f88c52a28c45ba4ef0eb285b7bc952">API</h4>
 
 <ul>
-<li>Improve performance of hardware and virtual guest callbacks</li>
-<li>Upgrades the interface with the APNIC registrar to support their new session based authentication system, allowing for proper modification of rwhois entires.</li>
+<li><a href="http://sldn.softlayer.com/reference/datatypes/SoftLayer_Account">SoftLayer_Account.nextInvoiceIncubatorExemptTotal</a> is now depreciated and will be removed in a later version</li>
+<li>Numbers are no longer valid characters for a lastName field when creating an account.</li>
 </ul>
  
             </div>
@@ -186,7 +182,7 @@
 			
 				<div class="well well-sm release-note example col-md-12">
     <h3>
-        <a href="/release_notes/20150829/"> August 29, 2015</a>
+        <a href="/release_notes/20150923/"> September 23, 2015</a>
         <br>
     </h3>
     <div class="container">
@@ -194,17 +190,16 @@
             <div class="col-md-8">
                 
 
-<h4 id="portal:59bda6c3bc94fc228a4ba2b9552296e4">Portal</h4>
+<h4 id="portal:a4e6290f5e300c1876d661c0cae4b2bf">Portal</h4>
 
 <ul>
-<li>Fixes a bug preventing editing of storage groups for quotes and orders.</li>
-<li>Fixed input validation on forward zone creation to allow for long gTLDs</li>
+<li>Fixes a problem where some orders would be authorized several times before being collected.</li>
 </ul>
 
-<h4 id="api:59bda6c3bc94fc228a4ba2b9552296e4">API</h4>
+<h4 id="api:a4e6290f5e300c1876d661c0cae4b2bf">API</h4>
 
 <ul>
-<li>Improved punycode validation for domain names.</li>
+<li>Prevents CoreOS Virtual Guests from using rescue layer as it is not supported</li>
 </ul>
  
             </div>
@@ -218,7 +213,7 @@
 			
 				<div class="well well-sm release-note example col-md-12">
     <h3>
-        <a href="/release_notes/20150826/"> August 26, 2015</a>
+        <a href="/release_notes/20150921/"> September 21, 2015</a>
         <br>
     </h3>
     <div class="container">
@@ -226,11 +221,11 @@
             <div class="col-md-8">
                 
 
-<h4 id="api:bb107a1977ce3a7053e0e8a6d364dbbe">API</h4>
+<h4 id="api:e977393f9348a7e15f46b47b0b430f89">API</h4>
 
 <ul>
-<li>Prevents grouped network components from being disconnected</li>
-<li>Added a lastResponseDate to the ticket object.  This lastResponseDate represents the last time a customer facing response was added to the ticket.  This is exposed sldn.</li>
+<li>Improves response time of <a href="http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/getUpgradeItemPrices">getUpgradeItemPrices</a></li>
+<li>Fixed an issue where doing an OS reload on a virtual guest from Windows to Linux would prevent the virtual guest from deploying properly.</li>
 </ul>
  
             </div>
@@ -329,12 +324,18 @@
         ><a href="/page/13/">13</a></li>
         
         <li
+        ><a href="/page/14/">14</a></li>
+        
+        <li
+        ><a href="/page/15/">15</a></li>
+        
+        <li
         >
         <a href="/page/13/" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
         </li>
         
         <li>
-            <a href="/page/13/" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+            <a href="/page/15/" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
         </li>
         
     </ul>

@@ -6,7 +6,102 @@
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
-    <updated>Mon, 12 Oct 2015 00:00:00 UTC</updated>
+    <updated>Thu, 01 Sep 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Create a new virtual server with all options</title>
+      <link>/php/createVsi/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 UTC</pubDate>
+      <author>Enthusiastic Hugo User</author>
+      <guid>/php/createVsi/</guid>
+      <description>&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;&amp;lt;?php
+
+/* You can use the getenv() module to pull your exported Username
+and API key to keep from having to store them in your files */
+
+require_once &#39;./vendor/autoload.php&#39;;
+$apiUsername = getenv(&#39;SOFTLAYER_USERNAME&#39;);
+$apiKey = getenv(&#39;SOFTLAYER_API_KEY&#39;);
+
+$template = new stdClass();
+$template-&amp;gt;location = 1441195;
+$template-&amp;gt;datacenter-&amp;gt;name = &#39;dal10&#39;;
+$template-&amp;gt;domain = &#39;example.com&#39;;
+$template-&amp;gt;startCpus = 2;
+$template-&amp;gt;maxMemory = 2048;
+$template-&amp;gt;operatingSystemReferenceCode = &#39;CENTOS_6_64&#39;;
+$template-&amp;gt;hostname = &#39;testphp&#39;;
+$template-&amp;gt;localDiskFlag = True;
+$template-&amp;gt;hourlyBillingFlag = True;
+$template-&amp;gt;dedicatedAccountHostOnlyFlag = False;
+$template-&amp;gt;primaryBackendNetworkComponent = 1286783;
+$template-&amp;gt;primaryNetworkComponent = 1286781;
+$template-&amp;gt;privateNetworkOnlyFlag = False;
+
+try {
+  $client = \SoftLayer\SoapClient::getClient(&#39;SoftLayer_Virtual_Guest&#39;,null, $apiUsername, $apiKey);
+  $response = $client-&amp;gt;createObject($template);
+
+  print_r($response);
+
+ } catch(Exception $e) {
+     echo &#39;Cannot compute. Error is: &#39; . $e-&amp;gt;getMessage();
+}
+
+?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Create a new virtual server with all options</title>
+      <link>/ruby/createVSI/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 UTC</pubDate>
+      <author>Enthusiastic Hugo User</author>
+      <guid>/ruby/createVSI/</guid>
+      <description>&lt;p&gt;When you are ready to place the order change &lt;code&gt;verifyOrder(productOrder)&lt;/code&gt; to &lt;code&gt;placeOrder(productOrder)&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;
+require &#39;softlayer_api&#39;
+require &#39;pp&#39;
+
+client = SoftLayer::Client.new(:timeout =&amp;gt; 120)
+
+productOrder = {
+  &#39;virtualGuests&#39; =&amp;gt; [{
+     &#39;hostname&#39; =&amp;gt; &#39;testRuby&#39;,
+     &#39;domain&#39;   =&amp;gt; &#39;example.com&#39;,
+     &#39;primaryBackendNetworkComponent&#39; =&amp;gt; { &#39;networkVlan&#39; =&amp;gt; { &#39;id&#39; =&amp;gt; 1286783 } }
+  }],
+  &#39;location&#39; =&amp;gt; 1441195,
+  &#39;packageId&#39; =&amp;gt; 46,
+  &#39;operatingSystemReferenceCode&#39; =&amp;gt; &#39;CENTOS_6_64&#39;, 
+  &#39;useHourlyPricing&#39; =&amp;gt; false,
+  &#39;prices&#39; =&amp;gt; [
+     {&#39;id&#39; =&amp;gt; 1640 }, # 1 x 2.0 GHz Core
+     {&#39;id&#39; =&amp;gt; 1644 }, # 1 GB RAM
+     {&#39;id&#39; =&amp;gt; 13945 }, # CENTOS_6_64
+     {&#39;id&#39; =&amp;gt; 1639 }, # 100 GB (SAN) First Disk
+     {&#39;id&#39; =&amp;gt; 2277 }, # 100 GB (SAN) Second Disk
+     {&#39;id&#39; =&amp;gt; 50367 }, # 250 GB Bandwidth
+     {&#39;id&#39; =&amp;gt; 274 }, # 1 Gbps Public &amp;amp; Private Network Uplinks
+     {&#39;id&#39; =&amp;gt; 21 }, # 1 IP Address
+     {&#39;id&#39; =&amp;gt; 420 }, # Unlimited SSL VPN Users &amp;amp; 1 PPTP VPN User per account
+     {&#39;id&#39; =&amp;gt; 56 }, # Host Ping and TCP Service Monitoring
+     {&#39;id&#39; =&amp;gt; 57 }, # Email and Ticket
+     {&#39;id&#39; =&amp;gt; 418 }, # NESSUS_VULNERABILITY_ASSESSMENT_REPORTING
+     {&#39;id&#39; =&amp;gt; 905 }, # REBOOT_REMOTE_CONSOLE
+     {&#39;id&#39; =&amp;gt; 58 }  # AUTOMATED_NOTIFICATION
+  ]
+}
+
+order = client[&#39;Product_Order&#39;].verifyOrder(productOrder)
+
+pp order
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Find active VMs of specified creator</title>
